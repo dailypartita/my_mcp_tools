@@ -27,6 +27,7 @@ class FireCrawl:
             "url": url,
             "scrapeOptions": {
                 "onlyMainContent": True,
+                "waitFor": 10,
                 "formats": ["html"]
             }
         }
@@ -45,7 +46,7 @@ class FireCrawl:
         while True:
             if response_json['success']:
                 res_url = response_json['url']
-                self.logger.info(f"Submitted: {self.url_snap}")
+                self.logger.info(f"Submitted: {self.url_snap};")
                 break
             else:
                 self.logger.error(f"{self.url_snap}; {response_json['error']}")
@@ -56,7 +57,7 @@ class FireCrawl:
             response = requests.request("GET", res_url, headers=self.headers)
             response_json = json.loads(response.text)
             if response_json['status'] == 'completed':
-                self.logger.info(f"Completed: {self.url_snap}; {response_json['status']}")
+                self.logger.info(f"Completed: {self.url_snap};")
                 break
             elif response_json['status'] == 'scraping':
                 self.logger.info(f"Scraping: {self.url_snap};")
