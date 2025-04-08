@@ -1,0 +1,1477 @@
+{
+    "all_respiratory_viruses": {
+        "summary": "Activity Levels Update:Reported on Friday, April 4, 2025The amount of acute respiratory illness causing people to seek health care remains at a low level.Nationally, emergency department visits for diagnosed influenza, COVID-19 and RSV are low.Nationally, influenza (9.7%), and RSV (4.1%) test positivity decreased. COVID-19 (3.7%) test positivity remained stable.Nationally, wastewater viral activity levels for influenza A and COVID-19 are low, and RSV is now very low.COVID-19 predictions for the next two weeks suggest that emergency department visits will decline from a low to very low level. Influenza predictions suggest that emergency department visits will remain at a low level.",
+        "trends": [
+            {
+                "date": "2025-03-29",
+                "COVID-19_percent_of_tests_positive": 3.7,
+                "Influenza_percent_of_tests_positive": 9.7,
+                "RSV_percent_of_tests_positive": 4.1
+            },
+            {
+                "date": "2025-03-22",
+                "COVID-19_percent_of_tests_positive": 3.6,
+                "Influenza_percent_of_tests_positive": 10.8,
+                "RSV_percent_of_tests_positive": 4.5
+            },
+            {
+                "date": "2025-03-15",
+                "COVID-19_percent_of_tests_positive": 3.7,
+                "Influenza_percent_of_tests_positive": 13.4,
+                "RSV_percent_of_tests_positive": 5.0
+            },
+            {
+                "date": "2025-03-08",
+                "COVID-19_percent_of_tests_positive": 3.6,
+                "Influenza_percent_of_tests_positive": 15.8,
+                "RSV_percent_of_tests_positive": 5.6
+            },
+            {
+                "date": "2025-03-01",
+                "COVID-19_percent_of_tests_positive": 3.8,
+                "Influenza_percent_of_tests_positive": 19.4,
+                "RSV_percent_of_tests_positive": 6.1
+            },
+            {
+                "date": "2025-02-22",
+                "COVID-19_percent_of_tests_positive": 3.9,
+                "Influenza_percent_of_tests_positive": 23.9,
+                "RSV_percent_of_tests_positive": 6.4
+            },
+            {
+                "date": "2025-02-15",
+                "COVID-19_percent_of_tests_positive": 4.3,
+                "Influenza_percent_of_tests_positive": 27.8,
+                "RSV_percent_of_tests_positive": 6.3
+            },
+            {
+                "date": "2025-02-08",
+                "COVID-19_percent_of_tests_positive": 4.5,
+                "Influenza_percent_of_tests_positive": 31.4,
+                "RSV_percent_of_tests_positive": 6.8
+            },
+            {
+                "date": "2025-02-01",
+                "COVID-19_percent_of_tests_positive": 4.6,
+                "Influenza_percent_of_tests_positive": 31.7,
+                "RSV_percent_of_tests_positive": 6.8
+            },
+            {
+                "date": "2025-01-25",
+                "COVID-19_percent_of_tests_positive": 5.1,
+                "Influenza_percent_of_tests_positive": 28.8,
+                "RSV_percent_of_tests_positive": 7.8
+            },
+            {
+                "date": "2025-01-18",
+                "COVID-19_percent_of_tests_positive": 5.6,
+                "Influenza_percent_of_tests_positive": 23.8,
+                "RSV_percent_of_tests_positive": 8.1
+            },
+            {
+                "date": "2025-01-11",
+                "COVID-19_percent_of_tests_positive": 6.3,
+                "Influenza_percent_of_tests_positive": 18.4,
+                "RSV_percent_of_tests_positive": 8.9
+            },
+            {
+                "date": "2025-01-04",
+                "COVID-19_percent_of_tests_positive": 6.7,
+                "Influenza_percent_of_tests_positive": 18.2,
+                "RSV_percent_of_tests_positive": 10.8
+            },
+            {
+                "date": "2024-12-28",
+                "COVID-19_percent_of_tests_positive": 6.5,
+                "Influenza_percent_of_tests_positive": 18.3,
+                "RSV_percent_of_tests_positive": 10.9
+            },
+            {
+                "date": "2024-12-21",
+                "COVID-19_percent_of_tests_positive": 6.0,
+                "Influenza_percent_of_tests_positive": 14.2,
+                "RSV_percent_of_tests_positive": 11.0
+            },
+            {
+                "date": "2024-12-14",
+                "COVID-19_percent_of_tests_positive": 5.4,
+                "Influenza_percent_of_tests_positive": 8.6,
+                "RSV_percent_of_tests_positive": 9.7
+            },
+            {
+                "date": "2024-12-07",
+                "COVID-19_percent_of_tests_positive": 4.8,
+                "Influenza_percent_of_tests_positive": 5.2,
+                "RSV_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-11-30",
+                "COVID-19_percent_of_tests_positive": 4.4,
+                "Influenza_percent_of_tests_positive": 3.9,
+                "RSV_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-11-23",
+                "COVID-19_percent_of_tests_positive": 4.2,
+                "Influenza_percent_of_tests_positive": 2.8,
+                "RSV_percent_of_tests_positive": 6.1
+            },
+            {
+                "date": "2024-11-16",
+                "COVID-19_percent_of_tests_positive": 4.0,
+                "Influenza_percent_of_tests_positive": 2.1,
+                "RSV_percent_of_tests_positive": 5.5
+            },
+            {
+                "date": "2024-11-09",
+                "COVID-19_percent_of_tests_positive": 4.2,
+                "Influenza_percent_of_tests_positive": 1.5,
+                "RSV_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2024-11-02",
+                "COVID-19_percent_of_tests_positive": 4.7,
+                "Influenza_percent_of_tests_positive": 1.2,
+                "RSV_percent_of_tests_positive": 3.0
+            },
+            {
+                "date": "2024-10-26",
+                "COVID-19_percent_of_tests_positive": 5.0,
+                "Influenza_percent_of_tests_positive": 1.0,
+                "RSV_percent_of_tests_positive": 2.2
+            },
+            {
+                "date": "2024-10-19",
+                "COVID-19_percent_of_tests_positive": 5.3,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 1.9
+            },
+            {
+                "date": "2024-10-12",
+                "COVID-19_percent_of_tests_positive": 6.3,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 1.3
+            },
+            {
+                "date": "2024-10-05",
+                "COVID-19_percent_of_tests_positive": 7.4,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 1.1
+            },
+            {
+                "date": "2024-09-28",
+                "COVID-19_percent_of_tests_positive": 9.3,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.8
+            },
+            {
+                "date": "2024-09-21",
+                "COVID-19_percent_of_tests_positive": 11.2,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.6
+            },
+            {
+                "date": "2024-09-14",
+                "COVID-19_percent_of_tests_positive": 13.1,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-09-07",
+                "COVID-19_percent_of_tests_positive": 14.5,
+                "Influenza_percent_of_tests_positive": 0.4,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-31",
+                "COVID-19_percent_of_tests_positive": 16.3,
+                "Influenza_percent_of_tests_positive": 0.4,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-24",
+                "COVID-19_percent_of_tests_positive": 16.8,
+                "Influenza_percent_of_tests_positive": 0.4,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-17",
+                "COVID-19_percent_of_tests_positive": 17.6,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-10",
+                "COVID-19_percent_of_tests_positive": 17.8,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.2
+            },
+            {
+                "date": "2024-08-03",
+                "COVID-19_percent_of_tests_positive": 17.3,
+                "Influenza_percent_of_tests_positive": 0.6,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-07-27",
+                "COVID-19_percent_of_tests_positive": 16.1,
+                "Influenza_percent_of_tests_positive": 0.6,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-07-20",
+                "COVID-19_percent_of_tests_positive": 14.6,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-07-13",
+                "COVID-19_percent_of_tests_positive": 12.9,
+                "Influenza_percent_of_tests_positive": 0.8,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-07-06",
+                "COVID-19_percent_of_tests_positive": 11.1,
+                "Influenza_percent_of_tests_positive": 1.0,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-06-29",
+                "COVID-19_percent_of_tests_positive": 9.6,
+                "Influenza_percent_of_tests_positive": 0.9,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-06-22",
+                "COVID-19_percent_of_tests_positive": 8.6,
+                "Influenza_percent_of_tests_positive": 1.0,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-06-15",
+                "COVID-19_percent_of_tests_positive": 7.0,
+                "Influenza_percent_of_tests_positive": 1.3,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-06-08",
+                "COVID-19_percent_of_tests_positive": 5.6,
+                "Influenza_percent_of_tests_positive": 1.5,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-06-01",
+                "COVID-19_percent_of_tests_positive": 4.8,
+                "Influenza_percent_of_tests_positive": 1.6,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-05-25",
+                "COVID-19_percent_of_tests_positive": 4.1,
+                "Influenza_percent_of_tests_positive": 1.6,
+                "RSV_percent_of_tests_positive": 0.5
+            },
+            {
+                "date": "2024-05-18",
+                "COVID-19_percent_of_tests_positive": 3.5,
+                "Influenza_percent_of_tests_positive": 1.8,
+                "RSV_percent_of_tests_positive": 0.5
+            },
+            {
+                "date": "2024-05-11",
+                "COVID-19_percent_of_tests_positive": 3.1,
+                "Influenza_percent_of_tests_positive": 2.3,
+                "RSV_percent_of_tests_positive": 0.7
+            },
+            {
+                "date": "2024-05-04",
+                "COVID-19_percent_of_tests_positive": 3.3,
+                "Influenza_percent_of_tests_positive": 3.2,
+                "RSV_percent_of_tests_positive": 0.7
+            },
+            {
+                "date": "2024-04-27",
+                "COVID-19_percent_of_tests_positive": 3.1,
+                "Influenza_percent_of_tests_positive": 3.8,
+                "RSV_percent_of_tests_positive": 0.8
+            },
+            {
+                "date": "2024-04-20",
+                "COVID-19_percent_of_tests_positive": 3.1,
+                "Influenza_percent_of_tests_positive": 4.8,
+                "RSV_percent_of_tests_positive": 0.9
+            },
+            {
+                "date": "2024-04-13",
+                "COVID-19_percent_of_tests_positive": 3.4,
+                "Influenza_percent_of_tests_positive": 5.8,
+                "RSV_percent_of_tests_positive": 1.2
+            },
+            {
+                "date": "2024-04-06",
+                "COVID-19_percent_of_tests_positive": 3.5,
+                "Influenza_percent_of_tests_positive": 7.5,
+                "RSV_percent_of_tests_positive": 1.3
+            },
+            {
+                "date": "2024-03-30",
+                "COVID-19_percent_of_tests_positive": 3.8,
+                "Influenza_percent_of_tests_positive": 9.2,
+                "RSV_percent_of_tests_positive": 1.6
+            },
+            {
+                "date": "2024-03-23",
+                "COVID-19_percent_of_tests_positive": 4.1,
+                "Influenza_percent_of_tests_positive": 10.4,
+                "RSV_percent_of_tests_positive": 2.0
+            },
+            {
+                "date": "2024-03-16",
+                "COVID-19_percent_of_tests_positive": 4.7,
+                "Influenza_percent_of_tests_positive": 11.9,
+                "RSV_percent_of_tests_positive": 2.4
+            },
+            {
+                "date": "2024-03-09",
+                "COVID-19_percent_of_tests_positive": 5.5,
+                "Influenza_percent_of_tests_positive": 14.2,
+                "RSV_percent_of_tests_positive": 2.8
+            },
+            {
+                "date": "2024-03-02",
+                "COVID-19_percent_of_tests_positive": 6.7,
+                "Influenza_percent_of_tests_positive": 14.9,
+                "RSV_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-02-24",
+                "COVID-19_percent_of_tests_positive": 7.7,
+                "Influenza_percent_of_tests_positive": 15.5,
+                "RSV_percent_of_tests_positive": 3.6
+            },
+            {
+                "date": "2024-02-17",
+                "COVID-19_percent_of_tests_positive": 8.4,
+                "Influenza_percent_of_tests_positive": 15.6,
+                "RSV_percent_of_tests_positive": 4.2
+            },
+            {
+                "date": "2024-02-10",
+                "COVID-19_percent_of_tests_positive": 9.5,
+                "Influenza_percent_of_tests_positive": 15.9,
+                "RSV_percent_of_tests_positive": 4.9
+            },
+            {
+                "date": "2024-02-03",
+                "COVID-19_percent_of_tests_positive": 9.9,
+                "Influenza_percent_of_tests_positive": 16.3,
+                "RSV_percent_of_tests_positive": 5.5
+            },
+            {
+                "date": "2024-01-27",
+                "COVID-19_percent_of_tests_positive": 10.4,
+                "Influenza_percent_of_tests_positive": 16.1,
+                "RSV_percent_of_tests_positive": 6.1
+            },
+            {
+                "date": "2024-01-20",
+                "COVID-19_percent_of_tests_positive": 10.9,
+                "Influenza_percent_of_tests_positive": 14.9,
+                "RSV_percent_of_tests_positive": 7.2
+            },
+            {
+                "date": "2024-01-13",
+                "COVID-19_percent_of_tests_positive": 11.9,
+                "Influenza_percent_of_tests_positive": 13.9,
+                "RSV_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-01-06",
+                "COVID-19_percent_of_tests_positive": 12.9,
+                "Influenza_percent_of_tests_positive": 13.8,
+                "RSV_percent_of_tests_positive": 9.9
+            },
+            {
+                "date": "2023-12-30",
+                "COVID-19_percent_of_tests_positive": 13.1,
+                "Influenza_percent_of_tests_positive": 18.2,
+                "RSV_percent_of_tests_positive": 10.4
+            },
+            {
+                "date": "2023-12-23",
+                "COVID-19_percent_of_tests_positive": 12.4,
+                "Influenza_percent_of_tests_positive": 17.3,
+                "RSV_percent_of_tests_positive": 11.2
+            },
+            {
+                "date": "2023-12-16",
+                "COVID-19_percent_of_tests_positive": 11.9,
+                "Influenza_percent_of_tests_positive": 13.4,
+                "RSV_percent_of_tests_positive": 12.2
+            },
+            {
+                "date": "2023-12-09",
+                "COVID-19_percent_of_tests_positive": 11.6,
+                "Influenza_percent_of_tests_positive": 9.8,
+                "RSV_percent_of_tests_positive": 12.0
+            },
+            {
+                "date": "2023-12-02",
+                "COVID-19_percent_of_tests_positive": 11.7,
+                "Influenza_percent_of_tests_positive": 7.0,
+                "RSV_percent_of_tests_positive": 11.9
+            },
+            {
+                "date": "2023-11-25",
+                "COVID-19_percent_of_tests_positive": 11.2,
+                "Influenza_percent_of_tests_positive": 5.9,
+                "RSV_percent_of_tests_positive": 12.7
+            },
+            {
+                "date": "2023-11-18",
+                "COVID-19_percent_of_tests_positive": 9.5,
+                "Influenza_percent_of_tests_positive": 4.9,
+                "RSV_percent_of_tests_positive": 11.8
+            },
+            {
+                "date": "2023-11-11",
+                "COVID-19_percent_of_tests_positive": 10.1,
+                "Influenza_percent_of_tests_positive": 4.0,
+                "RSV_percent_of_tests_positive": 10.6
+            },
+            {
+                "date": "2023-11-04",
+                "COVID-19_percent_of_tests_positive": 9.3,
+                "Influenza_percent_of_tests_positive": 2.6,
+                "RSV_percent_of_tests_positive": 9.1
+            },
+            {
+                "date": "2023-10-28",
+                "COVID-19_percent_of_tests_positive": 9.6,
+                "Influenza_percent_of_tests_positive": 1.8,
+                "RSV_percent_of_tests_positive": 7.6
+            },
+            {
+                "date": "2023-10-21",
+                "COVID-19_percent_of_tests_positive": 9.4,
+                "Influenza_percent_of_tests_positive": 1.5,
+                "RSV_percent_of_tests_positive": 5.9
+            },
+            {
+                "date": "2023-10-14",
+                "COVID-19_percent_of_tests_positive": 9.1,
+                "Influenza_percent_of_tests_positive": 1.3,
+                "RSV_percent_of_tests_positive": 4.8
+            },
+            {
+                "date": "2023-10-07",
+                "COVID-19_percent_of_tests_positive": 10.0,
+                "Influenza_percent_of_tests_positive": 1.1,
+                "RSV_percent_of_tests_positive": 3.7
+            }
+        ]
+    },
+    "clinical_cov": {
+        "trends": [
+            {
+                "date": "2025-03-29",
+                "COVID-19_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2025-03-22",
+                "COVID-19_percent_of_tests_positive": 3.6
+            },
+            {
+                "date": "2025-03-15",
+                "COVID-19_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2025-03-08",
+                "COVID-19_percent_of_tests_positive": 3.6
+            },
+            {
+                "date": "2025-03-01",
+                "COVID-19_percent_of_tests_positive": 3.8
+            },
+            {
+                "date": "2025-02-22",
+                "COVID-19_percent_of_tests_positive": 3.9
+            },
+            {
+                "date": "2025-02-15",
+                "COVID-19_percent_of_tests_positive": 4.3
+            },
+            {
+                "date": "2025-02-08",
+                "COVID-19_percent_of_tests_positive": 4.5
+            },
+            {
+                "date": "2025-02-01",
+                "COVID-19_percent_of_tests_positive": 4.6
+            },
+            {
+                "date": "2025-01-25",
+                "COVID-19_percent_of_tests_positive": 5.1
+            },
+            {
+                "date": "2025-01-18",
+                "COVID-19_percent_of_tests_positive": 5.6
+            },
+            {
+                "date": "2025-01-11",
+                "COVID-19_percent_of_tests_positive": 6.3
+            },
+            {
+                "date": "2025-01-04",
+                "COVID-19_percent_of_tests_positive": 6.7
+            },
+            {
+                "date": "2024-12-28",
+                "COVID-19_percent_of_tests_positive": 6.5
+            },
+            {
+                "date": "2024-12-21",
+                "COVID-19_percent_of_tests_positive": 6.0
+            },
+            {
+                "date": "2024-12-14",
+                "COVID-19_percent_of_tests_positive": 5.4
+            },
+            {
+                "date": "2024-12-07",
+                "COVID-19_percent_of_tests_positive": 4.8
+            },
+            {
+                "date": "2024-11-30",
+                "COVID-19_percent_of_tests_positive": 4.4
+            },
+            {
+                "date": "2024-11-23",
+                "COVID-19_percent_of_tests_positive": 4.2
+            },
+            {
+                "date": "2024-11-16",
+                "COVID-19_percent_of_tests_positive": 4.0
+            },
+            {
+                "date": "2024-11-09",
+                "COVID-19_percent_of_tests_positive": 4.2
+            },
+            {
+                "date": "2024-11-02",
+                "COVID-19_percent_of_tests_positive": 4.7
+            },
+            {
+                "date": "2024-10-26",
+                "COVID-19_percent_of_tests_positive": 5.0
+            },
+            {
+                "date": "2024-10-19",
+                "COVID-19_percent_of_tests_positive": 5.3
+            },
+            {
+                "date": "2024-10-12",
+                "COVID-19_percent_of_tests_positive": 6.3
+            },
+            {
+                "date": "2024-10-05",
+                "COVID-19_percent_of_tests_positive": 7.4
+            },
+            {
+                "date": "2024-09-28",
+                "COVID-19_percent_of_tests_positive": 9.3
+            },
+            {
+                "date": "2024-09-21",
+                "COVID-19_percent_of_tests_positive": 11.2
+            },
+            {
+                "date": "2024-09-14",
+                "COVID-19_percent_of_tests_positive": 13.1
+            },
+            {
+                "date": "2024-09-07",
+                "COVID-19_percent_of_tests_positive": 14.5
+            },
+            {
+                "date": "2024-08-31",
+                "COVID-19_percent_of_tests_positive": 16.3
+            },
+            {
+                "date": "2024-08-24",
+                "COVID-19_percent_of_tests_positive": 16.8
+            },
+            {
+                "date": "2024-08-17",
+                "COVID-19_percent_of_tests_positive": 17.6
+            },
+            {
+                "date": "2024-08-10",
+                "COVID-19_percent_of_tests_positive": 17.8
+            },
+            {
+                "date": "2024-08-03",
+                "COVID-19_percent_of_tests_positive": 17.3
+            },
+            {
+                "date": "2024-07-27",
+                "COVID-19_percent_of_tests_positive": 16.1
+            },
+            {
+                "date": "2024-07-20",
+                "COVID-19_percent_of_tests_positive": 14.6
+            },
+            {
+                "date": "2024-07-13",
+                "COVID-19_percent_of_tests_positive": 12.9
+            },
+            {
+                "date": "2024-07-06",
+                "COVID-19_percent_of_tests_positive": 11.1
+            },
+            {
+                "date": "2024-06-29",
+                "COVID-19_percent_of_tests_positive": 9.6
+            },
+            {
+                "date": "2024-06-22",
+                "COVID-19_percent_of_tests_positive": 8.6
+            },
+            {
+                "date": "2024-06-15",
+                "COVID-19_percent_of_tests_positive": 7.0
+            },
+            {
+                "date": "2024-06-08",
+                "COVID-19_percent_of_tests_positive": 5.6
+            },
+            {
+                "date": "2024-06-01",
+                "COVID-19_percent_of_tests_positive": 4.8
+            },
+            {
+                "date": "2024-05-25",
+                "COVID-19_percent_of_tests_positive": 4.1
+            },
+            {
+                "date": "2024-05-18",
+                "COVID-19_percent_of_tests_positive": 3.5
+            },
+            {
+                "date": "2024-05-11",
+                "COVID-19_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-05-04",
+                "COVID-19_percent_of_tests_positive": 3.3
+            },
+            {
+                "date": "2024-04-27",
+                "COVID-19_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-04-20",
+                "COVID-19_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-04-13",
+                "COVID-19_percent_of_tests_positive": 3.4
+            },
+            {
+                "date": "2024-04-06",
+                "COVID-19_percent_of_tests_positive": 3.5
+            },
+            {
+                "date": "2024-03-30",
+                "COVID-19_percent_of_tests_positive": 3.8
+            },
+            {
+                "date": "2024-03-23",
+                "COVID-19_percent_of_tests_positive": 4.1
+            },
+            {
+                "date": "2024-03-16",
+                "COVID-19_percent_of_tests_positive": 4.7
+            },
+            {
+                "date": "2024-03-09",
+                "COVID-19_percent_of_tests_positive": 5.5
+            },
+            {
+                "date": "2024-03-02",
+                "COVID-19_percent_of_tests_positive": 6.7
+            },
+            {
+                "date": "2024-02-24",
+                "COVID-19_percent_of_tests_positive": 7.7
+            },
+            {
+                "date": "2024-02-17",
+                "COVID-19_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-02-10",
+                "COVID-19_percent_of_tests_positive": 9.5
+            },
+            {
+                "date": "2024-02-03",
+                "COVID-19_percent_of_tests_positive": 9.9
+            },
+            {
+                "date": "2024-01-27",
+                "COVID-19_percent_of_tests_positive": 10.4
+            },
+            {
+                "date": "2024-01-20",
+                "COVID-19_percent_of_tests_positive": 10.9
+            },
+            {
+                "date": "2024-01-13",
+                "COVID-19_percent_of_tests_positive": 11.9
+            },
+            {
+                "date": "2024-01-06",
+                "COVID-19_percent_of_tests_positive": 12.9
+            },
+            {
+                "date": "2023-12-30",
+                "COVID-19_percent_of_tests_positive": 13.1
+            },
+            {
+                "date": "2023-12-23",
+                "COVID-19_percent_of_tests_positive": 12.4
+            },
+            {
+                "date": "2023-12-16",
+                "COVID-19_percent_of_tests_positive": 11.9
+            },
+            {
+                "date": "2023-12-09",
+                "COVID-19_percent_of_tests_positive": 11.6
+            },
+            {
+                "date": "2023-12-02",
+                "COVID-19_percent_of_tests_positive": 11.7
+            },
+            {
+                "date": "2023-11-25",
+                "COVID-19_percent_of_tests_positive": 11.2
+            },
+            {
+                "date": "2023-11-18",
+                "COVID-19_percent_of_tests_positive": 9.5
+            },
+            {
+                "date": "2023-11-11",
+                "COVID-19_percent_of_tests_positive": 10.1
+            },
+            {
+                "date": "2023-11-04",
+                "COVID-19_percent_of_tests_positive": 9.3
+            },
+            {
+                "date": "2023-10-28",
+                "COVID-19_percent_of_tests_positive": 9.6
+            },
+            {
+                "date": "2023-10-21",
+                "COVID-19_percent_of_tests_positive": 9.4
+            },
+            {
+                "date": "2023-10-14",
+                "COVID-19_percent_of_tests_positive": 9.1
+            },
+            {
+                "date": "2023-10-07",
+                "COVID-19_percent_of_tests_positive": 10.0
+            }
+        ],
+        "variants": {
+            "date": "2025-03-29",
+            "percentage": "LP.8.1:55%;XEC:21%;MC.10.1:4%;LF.7:4%;KP.3.1.1:3%;MC.28.1:3%;LB.1.3.1:2%;XEC.4:2%;XEQ:2%;MC.19:1%;MC.1:1%;KP.3:1%;XEK:0%;JN.1.16:0%;JN.1:0%;KP.1.1.3:0%;KP.2.3:0%"
+        }
+    },
+    "wastewater_cov": {
+        "trends": [
+            {
+                "date": "2025-03-29",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.46
+            },
+            {
+                "date": "2025-03-22",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.64
+            },
+            {
+                "date": "2025-03-15",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.93
+            },
+            {
+                "date": "2025-03-08",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.05
+            },
+            {
+                "date": "2025-03-01",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.14
+            },
+            {
+                "date": "2025-02-22",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.39
+            },
+            {
+                "date": "2025-02-15",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.18
+            },
+            {
+                "date": "2025-02-08",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.5
+            },
+            {
+                "date": "2025-02-01",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.61
+            },
+            {
+                "date": "2025-01-25",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.61
+            },
+            {
+                "date": "2025-01-18",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.48
+            },
+            {
+                "date": "2025-01-11",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.3
+            },
+            {
+                "date": "2025-01-04",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.52
+            },
+            {
+                "date": "2024-12-28",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.0
+            },
+            {
+                "date": "2024-12-21",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.23
+            },
+            {
+                "date": "2024-12-14",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.6
+            },
+            {
+                "date": "2024-12-07",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.88
+            },
+            {
+                "date": "2024-11-30",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.86
+            },
+            {
+                "date": "2024-11-23",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.97
+            },
+            {
+                "date": "2024-11-16",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.78
+            },
+            {
+                "date": "2024-11-09",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.81
+            },
+            {
+                "date": "2024-11-02",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.98
+            },
+            {
+                "date": "2024-10-26",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.16
+            },
+            {
+                "date": "2024-10-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.14
+            },
+            {
+                "date": "2024-10-12",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.38
+            },
+            {
+                "date": "2024-10-05",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.92
+            },
+            {
+                "date": "2024-09-28",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.2
+            },
+            {
+                "date": "2024-09-21",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.51
+            },
+            {
+                "date": "2024-09-14",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.11
+            },
+            {
+                "date": "2024-09-07",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.05
+            },
+            {
+                "date": "2024-08-31",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.7
+            },
+            {
+                "date": "2024-08-24",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 9.03
+            },
+            {
+                "date": "2024-08-17",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.76
+            },
+            {
+                "date": "2024-08-10",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.89
+            },
+            {
+                "date": "2024-08-03",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.94
+            },
+            {
+                "date": "2024-07-27",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.48
+            },
+            {
+                "date": "2024-07-20",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 6.87
+            },
+            {
+                "date": "2024-07-13",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.95
+            },
+            {
+                "date": "2024-07-06",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.84
+            },
+            {
+                "date": "2024-06-29",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.09
+            },
+            {
+                "date": "2024-06-22",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.28
+            },
+            {
+                "date": "2024-06-15",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.62
+            },
+            {
+                "date": "2024-06-08",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.4
+            },
+            {
+                "date": "2024-06-01",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.1
+            },
+            {
+                "date": "2024-05-25",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.85
+            },
+            {
+                "date": "2024-05-18",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.71
+            },
+            {
+                "date": "2024-05-11",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.51
+            },
+            {
+                "date": "2024-05-04",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.45
+            },
+            {
+                "date": "2024-04-27",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.47
+            },
+            {
+                "date": "2024-04-20",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.63
+            },
+            {
+                "date": "2024-04-13",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.93
+            },
+            {
+                "date": "2024-04-06",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.22
+            },
+            {
+                "date": "2024-03-30",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.54
+            }
+        ],
+        "variants": [
+            {
+                "date": "2025-03-22",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:8%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:15%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:36%;XEC.4:N/A;MC.10.1:N/A;Other:35%"
+            },
+            {
+                "date": "2025-03-15",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:8%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:23%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:30%;XEC.4:N/A;MC.10.1:N/A;Other:32%"
+            },
+            {
+                "date": "2025-03-08",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:9%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:21%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:29%;XEC.4:N/A;MC.10.1:N/A;Other:34%"
+            },
+            {
+                "date": "2025-03-01",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:12%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:6%;XEC:22%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:24%;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2025-02-22",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:9%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:5%;XEC:27%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:21%;XEC.4:N/A;MC.10.1:N/A;Other:30%"
+            },
+            {
+                "date": "2025-02-15",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:10%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:6%;XEC:28%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:19%;XEC.4:N/A;MC.10.1:N/A;Other:29%"
+            },
+            {
+                "date": "2025-02-08",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:9%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:32%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:16%;XEC.4:5%;MC.10.1:N/A;Other:31%"
+            },
+            {
+                "date": "2025-02-01",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:10%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:7%;XEC:33%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:12%;XEC.4:N/A;MC.10.1:N/A;Other:30%"
+            },
+            {
+                "date": "2025-01-25",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:10%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:10%;XEC:34%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:8%;XEC.4:N/A;MC.10.1:N/A;Other:29%"
+            },
+            {
+                "date": "2025-01-18",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:11%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:10%;XEC:36%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:7%;XEC.4:5%;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2025-01-11",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:10%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:10%;XEC:38%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:5%;MC.10.1:N/A;Other:29%"
+            },
+            {
+                "date": "2025-01-04",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:6%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:13%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:12%;XEC:37%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:32%"
+            },
+            {
+                "date": "2024-12-28",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:13%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:15%;XEC:34%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:31%"
+            },
+            {
+                "date": "2024-12-21",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:11%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:18%;XEC:34%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:30%"
+            },
+            {
+                "date": "2024-12-14",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:14%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:18%;XEC:30%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:30%"
+            },
+            {
+                "date": "2024-12-07",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:14%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:23%;XEC:26%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:29%"
+            },
+            {
+                "date": "2024-11-30",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:8%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:17%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:24%;XEC:23%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:29%"
+            },
+            {
+                "date": "2024-11-23",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:16%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:31%;XEC:20%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2024-11-16",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:9%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:16%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:30%;XEC:16%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2024-11-09",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:20%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:31%;XEC:15%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:27%"
+            },
+            {
+                "date": "2024-11-02",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:9%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:21%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:36%;XEC:11%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2024-10-26",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:9%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:22%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:35%;XEC:9%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2024-10-19",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:7%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:20%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:42%;XEC:9%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:22%"
+            },
+            {
+                "date": "2024-10-12",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:10%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:20%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:38%;XEC:7%;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:25%"
+            },
+            {
+                "date": "2024-10-05",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:10%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:23%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:39%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2024-09-28",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:10%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:21%;LB.1:6%;KP.2.3:N/A;KP.3.1.1:38%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:25%"
+            },
+            {
+                "date": "2024-09-21",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:10%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:23%;LB.1:6%;KP.2.3:5%;KP.3.1.1:34%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:22%"
+            },
+            {
+                "date": "2024-09-14",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:11%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:20%;LB.1:8%;KP.2.3:7%;KP.3.1.1:34%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:21%"
+            },
+            {
+                "date": "2024-09-07",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:13%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:5%;KP.1.1:N/A;KP.3:19%;LB.1:8%;KP.2.3:8%;KP.3.1.1:31%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2024-08-31",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:13%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:5%;KP.1.1:N/A;KP.3:20%;LB.1:10%;KP.2.3:10%;KP.3.1.1:28%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:15%"
+            },
+            {
+                "date": "2024-08-24",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:13%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:5%;KP.1.1:N/A;KP.3:22%;LB.1:12%;KP.2.3:9%;KP.3.1.1:23%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:16%"
+            },
+            {
+                "date": "2024-08-17",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:14%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:6%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:5%;KP.1.1:N/A;KP.3:20%;LB.1:12%;KP.2.3:11%;KP.3.1.1:19%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:12%"
+            },
+            {
+                "date": "2024-08-10",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:15%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:8%;KP.1.1:N/A;KP.3:20%;LB.1:13%;KP.2.3:13%;KP.3.1.1:16%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2024-08-03",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:16%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:7%;KP.1.1:N/A;KP.3:20%;LB.1:11%;KP.2.3:12%;KP.3.1.1:15%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:18%"
+            },
+            {
+                "date": "2024-07-27",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:16%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:6%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:9%;KP.1.1:N/A;KP.3:23%;LB.1:12%;KP.2.3:12%;KP.3.1.1:11%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:13%"
+            },
+            {
+                "date": "2024-07-20",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:18%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:7%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:8%;KP.1.1:N/A;KP.3:20%;LB.1:13%;KP.2.3:11%;KP.3.1.1:9%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2024-07-13",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:20%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:8%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:7%;KP.1.1:N/A;KP.3:22%;LB.1:12%;KP.2.3:11%;KP.3.1.1:6%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2024-07-06",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:21%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:7%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:9%;KP.1.1:N/A;KP.3:19%;LB.1:14%;KP.2.3:10%;KP.3.1.1:6%;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:13%"
+            },
+            {
+                "date": "2024-06-29",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:25%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:8%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:9%;KP.1.1:N/A;KP.3:19%;LB.1:12%;KP.2.3:10%;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2024-06-22",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:25%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:10%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:11%;KP.1.1:N/A;KP.3:19%;LB.1:12%;KP.2.3:8%;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2024-06-15",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:29%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:9%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:12%;KP.1.1:N/A;KP.3:17%;LB.1:10%;KP.2.3:7%;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2024-06-08",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:32%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:7%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:12%;KP.1.1:N/A;KP.3:14%;LB.1:10%;KP.2.3:8%;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2024-06-01",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:36%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:9%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:11%;KP.1.1:N/A;KP.3:12%;LB.1:7%;KP.2.3:7%;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:16%"
+            },
+            {
+                "date": "2024-05-25",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:41%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:9%;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:11%;KP.1.1:N/A;KP.3:10%;LB.1:7%;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:22%"
+            },
+            {
+                "date": "2024-05-18",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:43%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:8%;JN.1.7:6%;JN.1.8.1:N/A;KP.2:10%;KP.1.1:N/A;KP.3:9%;LB.1:7%;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:18%"
+            },
+            {
+                "date": "2024-05-11",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:45%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:8%;JN.1.7:8%;JN.1.8.1:N/A;KP.2:10%;KP.1.1:N/A;KP.3:6%;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2024-05-04",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:53%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:5%;JN.1.7:12%;JN.1.8.1:N/A;KP.2:6%;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2024-04-27",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:57%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:12%;JN.1.8.1:N/A;KP.2:5%;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2024-04-20",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:63%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:12%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:25%"
+            },
+            {
+                "date": "2024-04-13",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:63%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:13%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2024-04-06",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:69%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:12%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:20%"
+            },
+            {
+                "date": "2024-03-30",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:70%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:10%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:20%"
+            },
+            {
+                "date": "2024-03-23",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:71%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:12%;JN.1.8.1:5%;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:11%"
+            },
+            {
+                "date": "2024-03-16",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:75%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:9%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:16%"
+            },
+            {
+                "date": "2024-03-09",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:78%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:9%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2024-03-02",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:79%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:9%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:12%"
+            },
+            {
+                "date": "2024-02-24",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:80%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:6%;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:13%"
+            },
+            {
+                "date": "2024-02-17",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:82%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:18%"
+            },
+            {
+                "date": "2024-02-10",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:82%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:18%"
+            },
+            {
+                "date": "2024-02-03",
+                "percentage": "BA.2:N/A;BA.2.86:6%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:81%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2024-01-27",
+                "percentage": "BA.2:N/A;BA.2.86:5%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:77%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:18%"
+            },
+            {
+                "date": "2024-01-20",
+                "percentage": "BA.2:N/A;BA.2.86:6%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:70%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2024-01-13",
+                "percentage": "BA.2:N/A;BA.2.86:7%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:6%;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:62%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2024-01-06",
+                "percentage": "BA.2:N/A;BA.2.86:8%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:8%;FL.1.5.1:N/A;HK.3:N/A;HV.1:5%;JN.1:54%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:25%"
+            },
+            {
+                "date": "2023-12-30",
+                "percentage": "BA.2:N/A;BA.2.86:7%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:10%;FL.1.5.1:N/A;HK.3:N/A;HV.1:8%;JN.1:47%;XBB:5%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:N/A;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2023-12-23",
+                "percentage": "BA.2:N/A;BA.2.86:6%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:15%;FL.1.5.1:N/A;HK.3:N/A;HV.1:12%;JN.1:35%;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:5%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:27%"
+            },
+            {
+                "date": "2023-12-16",
+                "percentage": "BA.2:N/A;BA.2.86:6%;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:17%;FL.1.5.1:N/A;HK.3:N/A;HV.1:15%;JN.1:24%;XBB:6%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:7%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2023-12-09",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:21%;FL.1.5.1:N/A;HK.3:N/A;HV.1:16%;JN.1:16%;XBB:6%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:34%"
+            },
+            {
+                "date": "2023-12-02",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:20%;FL.1.5.1:N/A;HK.3:N/A;HV.1:21%;JN.1:9%;XBB:6%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:35%"
+            },
+            {
+                "date": "2023-11-25",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:22%;FL.1.5.1:N/A;HK.3:N/A;HV.1:20%;JN.1:5%;XBB:8%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:9%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:36%"
+            },
+            {
+                "date": "2023-11-18",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:24%;FL.1.5.1:N/A;HK.3:N/A;HV.1:20%;JN.1:N/A;XBB:9%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:5%;XBB.1.5:7%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:35%"
+            },
+            {
+                "date": "2023-11-11",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:22%;FL.1.5.1:N/A;HK.3:N/A;HV.1:21%;JN.1:N/A;XBB:8%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:5%;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:36%"
+            },
+            {
+                "date": "2023-11-04",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:25%;FL.1.5.1:5%;HK.3:N/A;HV.1:19%;JN.1:N/A;XBB:8%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:36%"
+            },
+            {
+                "date": "2023-10-28",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:26%;FL.1.5.1:7%;HK.3:N/A;HV.1:16%;JN.1:N/A;XBB:7%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:5%;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:5%;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2023-10-21",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:24%;FL.1.5.1:9%;HK.3:N/A;HV.1:15%;JN.1:N/A;XBB:9%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:7%;XBB.1.5:7%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:29%"
+            },
+            {
+                "date": "2023-10-14",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:24%;FL.1.5.1:10%;HK.3:N/A;HV.1:13%;JN.1:N/A;XBB:8%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:7%;XBB.1.5:6%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:31%"
+            },
+            {
+                "date": "2023-10-07",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:26%;FL.1.5.1:10%;HK.3:N/A;HV.1:9%;JN.1:N/A;XBB:7%;XBB.1.16:5%;XBB.1.16.1:N/A;XBB.1.16.6:8%;XBB.1.5:7%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2023-09-30",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:25%;FL.1.5.1:10%;HK.3:N/A;HV.1:9%;JN.1:N/A;XBB:8%;XBB.1.16:6%;XBB.1.16.1:N/A;XBB.1.16.6:7%;XBB.1.5:7%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:5%;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:22%"
+            },
+            {
+                "date": "2023-09-23",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:22%;FL.1.5.1:10%;HK.3:N/A;HV.1:8%;JN.1:N/A;XBB:9%;XBB.1.16:6%;XBB.1.16.1:N/A;XBB.1.16.6:8%;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:5%;XBB.1.9.2:5%;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:19%"
+            },
+            {
+                "date": "2023-09-16",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:21%;FL.1.5.1:10%;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:9%;XBB.1.16:9%;XBB.1.16.1:N/A;XBB.1.16.6:9%;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:5%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2023-09-09",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:20%;FL.1.5.1:8%;HK.3:N/A;HV.1:5%;JN.1:N/A;XBB:9%;XBB.1.16:10%;XBB.1.16.1:N/A;XBB.1.16.6:9%;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:5%;XBB.1.9.2:N/A;XBB.2.3:6%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:20%"
+            },
+            {
+                "date": "2023-09-02",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:20%;FL.1.5.1:9%;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:11%;XBB.1.16:8%;XBB.1.16.1:N/A;XBB.1.16.6:8%;XBB.1.5:8%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:5%;XBB.1.9.2:N/A;XBB.2.3:7%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2023-08-26",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:17%;FL.1.5.1:7%;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:12%;XBB.1.16:10%;XBB.1.16.1:N/A;XBB.1.16.6:8%;XBB.1.5:9%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:6%;XBB.1.9.2:N/A;XBB.2.3:7%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2023-08-19",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:14%;FL.1.5.1:7%;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:14%;XBB.1.16:10%;XBB.1.16.1:N/A;XBB.1.16.6:7%;XBB.1.5:10%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:7%;XBB.1.9.2:N/A;XBB.2.3:8%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2023-08-12",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:14%;FL.1.5.1:6%;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:12%;XBB.1.16:12%;XBB.1.16.1:N/A;XBB.1.16.6:6%;XBB.1.5:12%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:7%;XBB.1.9.2:N/A;XBB.2.3:7%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2023-08-05",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:11%;FL.1.5.1:5%;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:16%;XBB.1.16:12%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:14%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:8%;XBB.1.9.2:N/A;XBB.2.3:7%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2023-07-29",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:10%;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:16%;XBB.1.16:12%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:18%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:9%;XBB.1.9.2:N/A;XBB.2.3:6%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2023-07-22",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:9%;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:16%;XBB.1.16:12%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:22%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:8%;XBB.1.9.2:N/A;XBB.2.3:5%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:28%"
+            },
+            {
+                "date": "2023-07-15",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:7%;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:18%;XBB.1.16:13%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:22%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:9%;XBB.1.9.2:N/A;XBB.2.3:6%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2023-07-08",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:6%;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:15%;XBB.1.16:11%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:25%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:10%;XBB.1.9.2:N/A;XBB.2.3:7%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2023-07-01",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:17%;XBB.1.16:11%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:30%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:10%;XBB.1.9.2:N/A;XBB.2.3:5%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2023-06-24",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:21%;XBB.1.16:9%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:28%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:10%;XBB.1.9.2:5%;XBB.2.3:6%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:22%"
+            },
+            {
+                "date": "2023-06-17",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:17%;XBB.1.16:9%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:35%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:10%;XBB.1.9.2:N/A;XBB.2.3:6%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:23%"
+            },
+            {
+                "date": "2023-06-10",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:18%;XBB.1.16:8%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:42%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:7%;XBB.1.9.2:N/A;XBB.2.3:5%;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:20%"
+            },
+            {
+                "date": "2023-06-03",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:16%;XBB.1.16:8%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:43%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:8%;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:25%"
+            },
+            {
+                "date": "2023-05-27",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:15%;XBB.1.16:9%;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:50%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:6%;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:21%"
+            },
+            {
+                "date": "2023-05-20",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:13%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:56%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:7%;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:24%"
+            },
+            {
+                "date": "2023-05-13",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:12%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:62%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:26%"
+            },
+            {
+                "date": "2023-05-06",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:16%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:61%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:22%"
+            },
+            {
+                "date": "2023-04-29",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:14%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:69%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:18%"
+            },
+            {
+                "date": "2023-04-22",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:10%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:71%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:19%"
+            },
+            {
+                "date": "2023-04-15",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:10%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:76%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2023-04-08",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:13%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:75%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:12%"
+            },
+            {
+                "date": "2023-04-01",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:9%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:78%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:13%"
+            },
+            {
+                "date": "2023-03-25",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:11%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:75%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2023-03-18",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:12%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:76%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:13%"
+            },
+            {
+                "date": "2023-03-11",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:9%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:74%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:16%"
+            },
+            {
+                "date": "2023-03-04",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:N/A;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:8%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:74%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2023-02-25",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:6%;BQ.1:N/A;BQ.1.1:N/A;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:7%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:73%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:14%"
+            },
+            {
+                "date": "2023-02-18",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:8%;BQ.1:6%;BQ.1.1:6%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:7%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:67%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:7%"
+            },
+            {
+                "date": "2023-02-11",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:9%;BQ.1:8%;BQ.1.1:8%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:5%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:62%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:8%"
+            },
+            {
+                "date": "2023-02-04",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:10%;BQ.1:12%;BQ.1.1:8%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:7%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:47%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:15%"
+            },
+            {
+                "date": "2023-01-28",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:13%;BQ.1:14%;BQ.1.1:12%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:5%;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:47%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:9%"
+            },
+            {
+                "date": "2023-01-21",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:14%;BQ.1:18%;BQ.1.1:14%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:36%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:17%"
+            },
+            {
+                "date": "2023-01-14",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:16%;BQ.1:18%;BQ.1.1:19%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:32%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:15%"
+            },
+            {
+                "date": "2023-01-07",
+                "percentage": "BA.2:N/A;BA.2.86:N/A;BA.5:18%;BQ.1:20%;BQ.1.1:20%;EG.5:N/A;FL.1.5.1:N/A;HK.3:N/A;HV.1:N/A;JN.1:N/A;XBB:N/A;XBB.1.16:N/A;XBB.1.16.1:N/A;XBB.1.16.6:N/A;XBB.1.5:23%;XBB.1.5.1:N/A;XBB.1.5.59:N/A;XBB.1.9.1:N/A;XBB.1.9.2:N/A;XBB.2.3:N/A;JN.1.11.1:N/A;JN.1.7:N/A;JN.1.8.1:N/A;KP.2:N/A;KP.1.1:N/A;KP.3:N/A;LB.1:N/A;KP.2.3:N/A;KP.3.1.1:N/A;XEC:N/A;MC.1:N/A;MC.19:N/A;LB.1.3.1:N/A;LP.8.1:N/A;XEC.4:N/A;MC.10.1:N/A;Other:19%"
+            }
+        ]
+    }
+}
