@@ -196,6 +196,10 @@ async def get_us_epidata():
     return epi_us
 
 if __name__ == "__main__":
+    ## if using MCP, uncomment the following line, and comment the rest line, and run: uv run epi-crawl.py
+    # mcp.run(transport='stdio')
+
+    ## if not using MCP, uncomment the following line, and comment the above line, and run: python epi-crawl.py or uv run epi-crawl.py
     async def main():
         while True:
             try:
@@ -206,3 +210,4 @@ if __name__ == "__main__":
                 print('Error occurred, retrying in 5 minutes...')
                 time.sleep(300)
     asyncio.run(main())
+    
