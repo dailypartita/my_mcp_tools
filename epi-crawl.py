@@ -314,5 +314,8 @@ if __name__ == "__main__":
                 print(e)
                 print('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
                 time.sleep(60)
+            except:
+                print('⚠️ An error occurred, retrying in 10 seconds...')
+                time.sleep(10)
 
     asyncio.run(main())
