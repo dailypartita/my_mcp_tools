@@ -1,18 +1,28 @@
 import os
 import json
 import time
+import sys
+import pymongo
 import asyncio
 import logging
 import aiohttp
 import requests
-from datetime import datetime
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
+from datetime import datetime, timezone
 
 load_dotenv()
 mcp = FastMCP("epi-crawl")
-time_now = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+TIME_NOW = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+TIMEGEP_SEC = 25
+
+class FireCrawlRateLimitExceeded(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.message = message
+    def __str__(self):
+        return f"FireCrawlRateLimitExceeded: {self.message}"
 
 class FireCrawl:
     def __init__(self, url):
@@ -26,8 +36,6 @@ class FireCrawl:
         self.payload = {
             "url": url,
             "scrapeOptions": {
-                "onlyMainContent": True,
-                "waitFor": 10,
                 "formats": ["html"]
             }
         }
@@ -40,7 +48,7 @@ class FireCrawl:
     def crawl(self) -> BeautifulSoup:
         
         #POST
-        response = requests.request("POST", self.FIRECRAWL_ENDPOINT, json=self.payload, headers=self.headers)
+        response = requests.request("POST", self.FIRECRAWL_ENDPOINT, json=self.payload, headers=self.headers) # type: ignore
         response_json = json.loads(response.text)
         
         while True:
@@ -48,9 +56,11 @@ class FireCrawl:
                 res_url = response_json['url']
                 self.logger.info(f"Submitted: {self.url_snap};")
                 break
+            elif 'Rate limit exceeded' in response_json['error']:
+                raise FireCrawlRateLimitExceeded(f"{response_json['error']}")
             else:
-                self.logger.error(f"{self.url_snap}; {response_json['error']}")
-                time.sleep(90)
+                self.logger.error(f"{self.url_snap}; {response_json['error']}, retrying in {TIMEGEP_SEC} seconds...")
+                time.sleep(TIMEGEP_SEC)
         
         #GET
         while True:
@@ -61,7 +71,7 @@ class FireCrawl:
                 break
             elif response_json['status'] == 'scraping':
                 self.logger.info(f"Scraping: {self.url_snap};")
-                time.sleep(10)
+                time.sleep(TIMEGEP_SEC)
         soup = BeautifulSoup(response_json['data'][0]['html'], 'html.parser')
         return soup
 
@@ -73,12 +83,14 @@ class FireCrawl:
             
             while True:
                 if response_json['success']:
-                    res_url = response_json['url'].replace("https:", self.FIRECRAWL_ENDPOINT.split('//')[0])
+                    res_url = response_json['url'].replace("https:", self.FIRECRAWL_ENDPOINT.split('//')[0]) # type: ignore
                     self.logger.info(f"Submitted: {self.url_snap}")
                     break
+                elif 'Rate limit exceeded' in response_json['error']:
+                    raise Exception(f"{response_json['error']}")
                 else:
-                    self.logger.error(f"{self.url_snap}; {response_json['error']}")
-                    await asyncio.sleep(65)
+                    self.logger.error(f"{self.url_snap}; {response_json['error']}, retrying in {TIMEGEP_SEC} seconds...")
+                    time.sleep(TIMEGEP_SEC)
 
         # GET
         while True:
@@ -88,8 +100,8 @@ class FireCrawl:
                     self.logger.info(f"Completed: {self.url_snap}; {response_json['status']}")
                     break
                 elif response_json['status'] == 'scraping':
-                    self.logger.info(f"Scraping: {self.url_snap};")
-                    await asyncio.sleep(10)
+                    self.logger.info(f"Scraping: {self.url_snap}, retrying in {TIMEGEP_SEC} seconds...")
+                    await asyncio.sleep(TIMEGEP_SEC)
         soup = BeautifulSoup(response_json['data'][0]['html'], 'html.parser')
         return soup
 
@@ -120,24 +132,34 @@ async def get_us_epidata():
 
     ## all_respiratory_viruses & clinical_cov trends
     arv_soup = FireCrawl(url_us['all_respiratory_viruses']['summary']).crawl()
-    arv_summary = arv_soup.find('div', class_='update-snapshot').text.strip()
+    arv_summary_str = arv_soup.find('div', class_='update-snapshot').text.strip() # type: ignore
+    arv_summary = [
+        {
+        'date': str(datetime.strptime(arv_summary_str[35:56], '%A, %B %d, %Y').replace(tzinfo=timezone.utc)),
+        'virus_type': 'all respiratory viruses',
+        'summary': arv_summary_str
+        }
+    ]
     arv_trends  = []
     cc_cov_trends = []
-    for row in arv_soup.find_all('div', class_='table-container')[-1].find('tbody').find_all('tr'):
-        cells = row.find_all('td')
-        td = {
-            'date': datetime.strptime(cells[0].text.strip(), '%B %d, %Y').strftime('%Y-%m-%d'),
+    for row in arv_soup.find_all('div', class_='table-container')[-1].find('tbody').find_all('tr'): # type: ignore
+        cells = row.find_all('td') # type: ignore
+        arv_trends_td = {
+            'date': str(datetime.strptime(cells[0].text.strip(), '%B %d, %Y').replace(tzinfo=timezone.utc)),
+            'virus_type': 'all respiratory viruses',
             'COVID-19_percent_of_tests_positive': float(cells[1].text.strip()),
             'Influenza_percent_of_tests_positive': float(cells[2].text.strip()),
             'RSV_percent_of_tests_positive': float(cells[3].text.strip())
         }
-        td_cov = {
-            'date': datetime.strptime(cells[0].text.strip(), '%B %d, %Y').strftime('%Y-%m-%d'),
+        cov_td = {
+            'date': str(datetime.strptime(cells[0].text.strip(), '%B %d, %Y').replace(tzinfo=timezone.utc)),
+            'virus_type': 'COVID-19',
             'COVID-19_percent_of_tests_positive': float(cells[1].text.strip())
         }
-        arv_trends.append(td)
-        cc_cov_trends.append(td_cov)
-    time.sleep(30)
+        arv_trends.append(arv_trends_td)
+        cc_cov_trends.append(cov_td)
+        
+    time.sleep(TIMEGEP_SEC)
     
     ## clinical_cov variants
     cc_cov_variants_soup = FireCrawl(url_us['clinical_cov']['variants']).crawl()
@@ -145,21 +167,26 @@ async def get_us_epidata():
     cc_cov_variants_list = cc_cov_raw_soup.find_all('div', class_ = 'tab-vizHeaderWrapper')
     cc_cov_variant_name = cc_cov_variants_list[7:24]
     cc_cov_variant_ratio = cc_cov_variants_list[41:58]
-    cc_cov_variants = {
-        'date': datetime.strptime(cc_cov_variants_list[-1].text, '%m/%d/%y').strftime('%Y-%m-%d'),
-        'percentage': ';'.join([f"{voc.text}:{ratio.text}" for voc, ratio in zip(cc_cov_variant_name, cc_cov_variant_ratio)])
-    }
-    time.sleep(30)
+    cc_cov_variants = [
+        {
+        'date': str(datetime.strptime(cc_cov_variants_list[-1].text, '%m/%d/%y').replace(tzinfo=timezone.utc)),
+        'virus_type': 'COVID-19',
+        'percentage': ';'.join([f"{voc.text}:{float(ratio.text[:-1])/100:.2f}" for voc, ratio in zip(cc_cov_variant_name, cc_cov_variant_ratio)])
+        }
+    ]
+    time.sleep(TIMEGEP_SEC)
     
     ## wastewater_cov
     ww_cov_soup_list = await crawl_2_url(url_us['wastewater_cov']['trends'], url_us['wastewater_cov']['variants'])
     ww_cov_trends = []
     for row in ww_cov_soup_list[0].find('div', class_='table-container').find('tbody').find_all('tr'):
-        td = {
-            'date': datetime.strptime(row.find('td').text.strip(), '%m/%d/%y').strftime('%Y-%m-%d'),
+        cov_td = {
+            'date': str(datetime.strptime(row.find('td').text.strip(), '%m/%d/%y').replace(tzinfo=timezone.utc)),
+            'virus_type': 'COVID-19',
             'COVID-19_NWSS_wastewater_viral_activity_levels': float(row.find_all('td')[1].text.strip())
         }
-        ww_cov_trends.append(td)
+        ww_cov_trends.append(cov_td)
+    time.sleep(TIMEGEP_SEC)
 
     ww_cov_variants = []
     ww_cov_variants_soup = ww_cov_soup_list[1].find('div', class_='table-container')
@@ -167,12 +194,14 @@ async def get_us_epidata():
     ww_cov_variants_name[0] = 'Date'
     for row in ww_cov_variants_soup.find('tbody').find_all('tr'):
         cells = row.find_all('td')
-        data = dict(zip(ww_cov_variants_name, [i.text.strip() for i in cells]))
-        ww_cov_variants.append({
-            'date': data['Date'],
-            'percentage': ';'.join([f"{voc}:{partio}" for voc, partio in data.items() if voc != 'Date'])
-        })
-    time.sleep(30)
+        ww_cov_var = dict(zip(ww_cov_variants_name, [i.text.strip() for i in cells]))
+        ww_cov_td = {
+            'date': str(datetime.strptime(ww_cov_var['Date'], '%Y-%m-%d').replace(tzinfo=timezone.utc)),
+            'virus_type': 'COVID-19',
+            'percentage': ';'.join([f"{voc}:{float(partio[:-1])/100:.2f}" for voc, partio in ww_cov_var.items() if voc != 'Date' and partio != 'N/A'])
+        }
+        ww_cov_variants.append(ww_cov_td)
+    time.sleep(TIMEGEP_SEC)
 
     epi_us = {
         'all_respiratory_viruses': {
@@ -188,14 +217,80 @@ async def get_us_epidata():
             'variants': ww_cov_variants
         }
     }
-    
     os.makedirs('history') if not os.path.exists('history') else None
-    with open(f'history/data_us_{time_now}.json', 'w') as f:
+    with open(f'history/data_us_{TIME_NOW}.json', 'w') as f:
         json.dump(epi_us, f, indent=4)
+    
+    epi_us_recent = {
+        'all_respiratory_viruses': {
+            'summary': arv_summary,
+            'trends': arv_trends[0:10]
+        },
+        'clinical_cov': {
+            'trends': cc_cov_trends[0:10],
+            'variants': cc_cov_variants[0:10]
+        },
+        'wastewater_cov': {
+            'trends': ww_cov_trends[0:10],
+            'variants': ww_cov_variants[0:10]
+        }
+    }
+    os.makedirs('recent') if not os.path.exists('recent') else None
+    with open(f'recent/data_us_recent_{TIME_NOW}.json', 'w') as f:
+        json.dump(epi_us_recent, f, indent=4)
     
     return epi_us
 
+@mcp.tool()
+def update_db(epi_us):
+    
+    update_record_list = []
+    logger = logging.getLogger(__name__)
+    MONGO_CLIENT = pymongo.MongoClient("mongodb://localhost:27017/")
+    MONGO_DB = MONGO_CLIENT["epi-crawl"]
+    
+    def update(head, db):
+        d_head = datetime.strptime(head['date'], '%Y-%m-%d %H:%M:%S%z')
+        for i in db.find().sort('date', pymongo.DESCENDING).limit(1):
+            d_db = i['date'].replace(tzinfo=timezone.utc)
+        if d_head > d_db:
+            document = head
+            document['date'] = d_head
+            db.insert_one(document)
+            logger.info(f'🌟 update {db.name}: {str(d_db)[:10]} -> {str(d_head)[:10]}')
+            return document
+        else:
+            logger.info(f'🏖️ no update {db.name}: {str(d_db)[:10]} -> {str(d_head)[:10]}')
+            return None
+    
+    for head, db in zip(
+        [
+            epi_us['all_respiratory_viruses']['summary'][0],
+            epi_us['all_respiratory_viruses']['trends'][0],
+            epi_us['clinical_cov']['trends'][0],
+            epi_us['clinical_cov']['variants'][0],
+            epi_us['wastewater_cov']['trends'][0],
+            epi_us['wastewater_cov']['variants'][0],
+        ],
+        [
+            MONGO_DB.all_respiratory_viruses_summary,
+            MONGO_DB.all_respiratory_viruses_trends,
+            MONGO_DB.clinical_cov_trends,
+            MONGO_DB.clinical_cov_variants,
+            MONGO_DB.wastewater_cov_trends,
+            MONGO_DB.wastewater_cov_variants
+        ]
+    ):
+        update_record = update(head, db)
+        if update_record is not None:
+            update_record_list.append(update_record)
+
+    MONGO_CLIENT.close()
+    logger.info(f"Total Updated {len(update_record_list)} items.")
+    return
+
 if __name__ == "__main__":
+    
     ## if using MCP, uncomment the following line, and comment the rest line, and run: uv run epi-crawl.py
     # mcp.run(transport='stdio')
 
@@ -203,11 +298,13 @@ if __name__ == "__main__":
     async def main():
         while True:
             try:
-                us_epidata = await get_us_epidata()
-                print(us_epidata)
+                epi_us = await get_us_epidata()
+                message = update_db(epi_us)
+                print(message)
                 break
-            except:
-                print('Error occurred, retrying in 5 minutes...')
-                time.sleep(300)
+            except FireCrawlRateLimitExceeded as e:
+                print(e)
+                print('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
+                time.sleep(60)
+
     asyncio.run(main())
-    
