@@ -1,7 +1,6 @@
 import os
 import json
 import time
-import sys
 import pymongo
 import asyncio
 import logging
@@ -15,7 +14,7 @@ from datetime import datetime, timezone
 load_dotenv()
 mcp = FastMCP("epi-crawl")
 TIME_NOW = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-TIMEGEP_SEC = 25
+TIMEGEP_SEC = 30
 
 class FireCrawlRateLimitExceeded(Exception):
     def __init__(self, message):
@@ -218,7 +217,7 @@ async def get_us_epidata():
         }
     }
     os.makedirs('history') if not os.path.exists('history') else None
-    with open(f'history/data_us_{TIME_NOW}.json', 'w') as f:
+    with open(f'history/data_us_history_{TIME_NOW}.json', 'w') as f:
         json.dump(epi_us, f, indent=4)
     
     epi_us_recent = {
@@ -239,10 +238,10 @@ async def get_us_epidata():
     with open(f'recent/data_us_recent_{TIME_NOW}.json', 'w') as f:
         json.dump(epi_us_recent, f, indent=4)
     
-    return epi_us
+    return epi_us, epi_us_recent
 
 @mcp.tool()
-def update_db(epi_us):
+def update_db(epi_us, epi_us_recent):
     
     update_record_list = []
     logger = logging.getLogger(__name__)
@@ -284,6 +283,15 @@ def update_db(epi_us):
         update_record = update(head, db)
         if update_record is not None:
             update_record_list.append(update_record)
+    if len(update_record_list) == 0:
+        logger.info('🏖️ no update')
+        return
+    else:
+        MONGO_DB.recent_shortcasts.insert_one({
+            "date": datetime.strptime(epi_us_recent["all_respiratory_viruses"]["summary"][0]["date"], '%Y-%m-%d %H:%M:%S%z').replace(tzinfo=timezone.utc),
+            "recent": epi_us_recent
+        })
+        logger.info(f'🌟 update recent_shortcasts: {str(epi_us_recent["all_respiratory_viruses"]["summary"][0]["date"])[:10]}')
 
     MONGO_CLIENT.close()
     logger.info(f"Total Updated {len(update_record_list)} items.")
@@ -298,10 +306,10 @@ if __name__ == "__main__":
     async def main():
         while True:
             try:
-                epi_us = await get_us_epidata()
-                message = update_db(epi_us)
-                print(message)
-                break
+                epi_us, epi_us_recent = await get_us_epidata()
+                update_db(epi_us, epi_us_recent)
+                print('✅ EPI US data updated successfully, next update in 24 hours...')
+                time.sleep(3600 * 24)
             except FireCrawlRateLimitExceeded as e:
                 print(e)
                 print('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
