@@ -295,6 +295,8 @@ def update_db(epi_us, epi_us_recent):
 
     MONGO_CLIENT.close()
     logger.info(f"Total Updated {len(update_record_list)} items.")
+    logger.info(f"✅ epi-crawl updated successfully, next update in 3 days...")
+    
     return
 
 if __name__ == "__main__":
@@ -308,8 +310,7 @@ if __name__ == "__main__":
             try:
                 epi_us, epi_us_recent = await get_us_epidata()
                 update_db(epi_us, epi_us_recent)
-                print('✅ EPI US data updated successfully, next update in 24 hours...')
-                time.sleep(3600 * 24)
+                time.sleep(3600 * 24 * 3)
             except FireCrawlRateLimitExceeded as e:
                 print(e)
                 print('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
