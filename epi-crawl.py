@@ -56,6 +56,7 @@ class FireCrawl:
                 self.logger.info(f"Submitted: {self.url_snap};")
                 break
             elif 'Rate limit exceeded' in response_json['error']:
+                self.logger.info('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
                 raise FireCrawlRateLimitExceeded(f"{response_json['error']}")
             else:
                 self.logger.error(f"{self.url_snap}; {response_json['error']}, retrying in {TIMEGEP_SEC} seconds...")
@@ -260,7 +261,7 @@ def update_db(epi_us, epi_us_recent):
     MONGO_DB = MONGO_CLIENT["epi-crawl"]
     
     def update(head, db):
-        d_head = datetime.strptime(head['date'], '%Y-%m-%d %H:%M:%S%z')
+        d_head = datetime.strptime(str(head['date']), '%Y-%m-%d %H:%M:%S%z')
         for i in db.find().sort('date', pymongo.DESCENDING).limit(1):
             d_db = i['date'].replace(tzinfo=timezone.utc)
         if d_head > d_db:
@@ -299,7 +300,7 @@ def update_db(epi_us, epi_us_recent):
         return
     else:
         MONGO_DB.recent_shortcasts.insert_one({
-            "date": datetime.strptime(epi_us_recent["all_respiratory_viruses"]["summary"][0]["date"], '%Y-%m-%d %H:%M:%S%z').replace(tzinfo=timezone.utc),
+            "date": datetime.strptime(str(epi_us_recent["all_respiratory_viruses"]["summary"][0]["date"]), '%Y-%m-%d %H:%M:%S%z').replace(tzinfo=timezone.utc),
             "recent": epi_us_recent
         })
         logger.info(f'🌟 update recent_shortcasts: {str(epi_us_recent["all_respiratory_viruses"]["summary"][0]["date"])[:10]}')
@@ -323,8 +324,6 @@ if __name__ == "__main__":
                 update_db(epi_us, epi_us_recent)
                 time.sleep(3600 * 24 * 3)
             except FireCrawlRateLimitExceeded as e:
-                print(e)
-                print('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
                 time.sleep(60)
             # except:
             #     print('⚠️ An error occurred, retrying in 10 seconds...')
