@@ -134,7 +134,7 @@ async def get_us_epidata():
     arv_summary_str = arv_soup.find('div', class_='update-snapshot').text.strip() # type: ignore
     arv_summary = [
         {
-        'date': str(datetime.strptime(arv_summary_str[35:56], '%A, %B %d, %Y').replace(tzinfo=timezone.utc)),
+        'date': str(datetime.strptime(''.join(arv_summary_str.split()[4:8])[:-3], '%A,%B%d,%Y').replace(tzinfo=timezone.utc)),
         'virus_type': 'all respiratory viruses',
         'summary': arv_summary_str
         }
@@ -159,22 +159,33 @@ async def get_us_epidata():
         cc_cov_trends.append(cov_td)
         
     time.sleep(TIMEGEP_SEC)
-    
+
     ## clinical_cov variants
+    def filter_by_maxwidth(div_list, max_width):
+        filtered_divs = []
+        for div in div_list:
+            style_content = div['style']
+            for style in style_content.split(';'):
+                if 'max-width' in style:
+                    width = style.split(':')[1].strip()
+                    if width == max_width:
+                        filtered_divs.append(div)
+        return [i.text for i in filtered_divs]
+
     cc_cov_variants_soup = FireCrawl(url_us['clinical_cov']['variants']).crawl()
     cc_cov_raw_soup = cc_cov_variants_soup.select('#circulatingVariants')[0]
     cc_cov_variants_list = cc_cov_raw_soup.find_all('div', class_ = 'tab-vizHeaderWrapper')
-    cc_cov_variant_name = cc_cov_variants_list[7:24]
-    cc_cov_variant_ratio = cc_cov_variants_list[41:58]
+    cc_cov_variant_name = filter_by_maxwidth([i.select('.tab-vizHeader')[0] for i in cc_cov_variants_list], '88px')
+    cc_cov_variant_ratio = filter_by_maxwidth([i.select('.tab-vizHeader')[0] for i in cc_cov_variants_list], '64px')[1:]
     cc_cov_variants = [
         {
         'date': str(datetime.strptime(cc_cov_variants_list[-1].text, '%m/%d/%y').replace(tzinfo=timezone.utc)),
         'virus_type': 'COVID-19',
-        'percentage': ';'.join([f"{voc.text}:{float(ratio.text[:-1])/100:.2f}" for voc, ratio in zip(cc_cov_variant_name, cc_cov_variant_ratio)])
+        'percentage': ';'.join([f"{voc}:{float(ratio[:-1])/100:.2f}" for voc, ratio in zip(cc_cov_variant_name, cc_cov_variant_ratio)]) + ';'
         }
     ]
     time.sleep(TIMEGEP_SEC)
-    
+
     ## wastewater_cov
     ww_cov_soup_list = await crawl_2_url(url_us['wastewater_cov']['trends'], url_us['wastewater_cov']['variants'])
     ww_cov_trends = []
@@ -197,7 +208,7 @@ async def get_us_epidata():
         ww_cov_td = {
             'date': str(datetime.strptime(ww_cov_var['Date'], '%Y-%m-%d').replace(tzinfo=timezone.utc)),
             'virus_type': 'COVID-19',
-            'percentage': ';'.join([f"{voc}:{float(partio[:-1])/100:.2f}" for voc, partio in ww_cov_var.items() if voc != 'Date' and partio != 'N/A'])
+            'percentage': ';'.join([f"{voc}:{float(partio[:-1]) / 100:.2f}" for voc, partio in ww_cov_var.items() if voc != 'Date' and partio != 'N/A'])
         }
         ww_cov_variants.append(ww_cov_td)
     time.sleep(TIMEGEP_SEC)
@@ -219,7 +230,7 @@ async def get_us_epidata():
     os.makedirs('history') if not os.path.exists('history') else None
     with open(f'history/data_us_history_{TIME_NOW}.json', 'w') as f:
         json.dump(epi_us, f, indent=4)
-    
+
     epi_us_recent = {
         'all_respiratory_viruses': {
             'summary': arv_summary,
@@ -315,8 +326,8 @@ if __name__ == "__main__":
                 print(e)
                 print('⚠️ FireCrawl Rate limit exceeded, retrying in 60 seconds...')
                 time.sleep(60)
-            except:
-                print('⚠️ An error occurred, retrying in 10 seconds...')
-                time.sleep(10)
+            # except:
+            #     print('⚠️ An error occurred, retrying in 10 seconds...')
+            #     time.sleep(10)
 
     asyncio.run(main())
