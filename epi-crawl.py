@@ -35,7 +35,8 @@ class FireCrawl:
         self.payload = {
             "url": url,
             "scrapeOptions": {
-                "formats": ["html"]
+                "formats": ["html"],
+                "waitFor": 10
             }
         }
         
