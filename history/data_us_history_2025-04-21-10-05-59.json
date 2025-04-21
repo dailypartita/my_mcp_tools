@@ -1,0 +1,1850 @@
+{
+    "all_respiratory_viruses": {
+        "summary": [
+            {
+                "date": "2025-04-18 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "summary": "Activity Levels Update:Reported on Friday, April 18, 2025The amount of acute respiratory illness causing people to seek health care remains at a low level.Nationally, emergency department visits for diagnosed influenza and RSV are low and COVID-19 ED visits are now very low.Nationally, influenza (6.7%), and RSV (2.5%) test positivity decreased. COVID-19 (3.4%) test positivity remained stable.Nationally, wastewater viral activity levels for influenza A and COVID-19 are low, and RSV is very low.COVID-19 predictions for the next two weeks suggest that emergency department visits will remain at a very low level. Influenza epidemic trends were not estimated for the U.S. overall this week. We expect the next update on April 25, 2025."
+            }
+        ],
+        "trends": [
+            {
+                "date": "2025-04-12 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.4,
+                "Influenza_percent_of_tests_positive": 6.7,
+                "RSV_percent_of_tests_positive": 2.5
+            },
+            {
+                "date": "2025-04-05 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.6,
+                "Influenza_percent_of_tests_positive": 7.7,
+                "RSV_percent_of_tests_positive": 2.8
+            },
+            {
+                "date": "2025-03-29 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.8,
+                "Influenza_percent_of_tests_positive": 9.4,
+                "RSV_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2025-03-22 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.7,
+                "Influenza_percent_of_tests_positive": 10.7,
+                "RSV_percent_of_tests_positive": 4.4
+            },
+            {
+                "date": "2025-03-15 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.7,
+                "Influenza_percent_of_tests_positive": 13.3,
+                "RSV_percent_of_tests_positive": 5.0
+            },
+            {
+                "date": "2025-03-08 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.7,
+                "Influenza_percent_of_tests_positive": 15.9,
+                "RSV_percent_of_tests_positive": 5.6
+            },
+            {
+                "date": "2025-03-01 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.8,
+                "Influenza_percent_of_tests_positive": 19.5,
+                "RSV_percent_of_tests_positive": 6.1
+            },
+            {
+                "date": "2025-02-22 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.9,
+                "Influenza_percent_of_tests_positive": 23.9,
+                "RSV_percent_of_tests_positive": 6.4
+            },
+            {
+                "date": "2025-02-15 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.3,
+                "Influenza_percent_of_tests_positive": 27.8,
+                "RSV_percent_of_tests_positive": 6.3
+            },
+            {
+                "date": "2025-02-08 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.5,
+                "Influenza_percent_of_tests_positive": 31.4,
+                "RSV_percent_of_tests_positive": 6.8
+            },
+            {
+                "date": "2025-02-01 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.6,
+                "Influenza_percent_of_tests_positive": 31.7,
+                "RSV_percent_of_tests_positive": 6.8
+            },
+            {
+                "date": "2025-01-25 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.2,
+                "Influenza_percent_of_tests_positive": 28.8,
+                "RSV_percent_of_tests_positive": 7.8
+            },
+            {
+                "date": "2025-01-18 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.6,
+                "Influenza_percent_of_tests_positive": 23.8,
+                "RSV_percent_of_tests_positive": 8.1
+            },
+            {
+                "date": "2025-01-11 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 6.3,
+                "Influenza_percent_of_tests_positive": 18.4,
+                "RSV_percent_of_tests_positive": 8.9
+            },
+            {
+                "date": "2025-01-04 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 6.7,
+                "Influenza_percent_of_tests_positive": 18.2,
+                "RSV_percent_of_tests_positive": 10.8
+            },
+            {
+                "date": "2024-12-28 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 6.5,
+                "Influenza_percent_of_tests_positive": 18.2,
+                "RSV_percent_of_tests_positive": 10.9
+            },
+            {
+                "date": "2024-12-21 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 6.0,
+                "Influenza_percent_of_tests_positive": 14.2,
+                "RSV_percent_of_tests_positive": 11.0
+            },
+            {
+                "date": "2024-12-14 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.4,
+                "Influenza_percent_of_tests_positive": 8.6,
+                "RSV_percent_of_tests_positive": 9.7
+            },
+            {
+                "date": "2024-12-07 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.8,
+                "Influenza_percent_of_tests_positive": 5.2,
+                "RSV_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-11-30 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.4,
+                "Influenza_percent_of_tests_positive": 3.9,
+                "RSV_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-11-23 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.2,
+                "Influenza_percent_of_tests_positive": 2.8,
+                "RSV_percent_of_tests_positive": 6.1
+            },
+            {
+                "date": "2024-11-16 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.1,
+                "Influenza_percent_of_tests_positive": 2.1,
+                "RSV_percent_of_tests_positive": 5.5
+            },
+            {
+                "date": "2024-11-09 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.2,
+                "Influenza_percent_of_tests_positive": 1.5,
+                "RSV_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2024-11-02 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.7,
+                "Influenza_percent_of_tests_positive": 1.2,
+                "RSV_percent_of_tests_positive": 3.0
+            },
+            {
+                "date": "2024-10-26 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.0,
+                "Influenza_percent_of_tests_positive": 1.0,
+                "RSV_percent_of_tests_positive": 2.2
+            },
+            {
+                "date": "2024-10-19 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.3,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 1.9
+            },
+            {
+                "date": "2024-10-12 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 6.3,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 1.3
+            },
+            {
+                "date": "2024-10-05 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 7.4,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 1.1
+            },
+            {
+                "date": "2024-09-28 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.3,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.8
+            },
+            {
+                "date": "2024-09-21 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.2,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.6
+            },
+            {
+                "date": "2024-09-14 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 13.1,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-09-07 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 14.5,
+                "Influenza_percent_of_tests_positive": 0.4,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-31 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 16.3,
+                "Influenza_percent_of_tests_positive": 0.4,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-24 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 16.8,
+                "Influenza_percent_of_tests_positive": 0.4,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-17 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 17.6,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-08-10 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 17.8,
+                "Influenza_percent_of_tests_positive": 0.5,
+                "RSV_percent_of_tests_positive": 0.2
+            },
+            {
+                "date": "2024-08-03 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 17.3,
+                "Influenza_percent_of_tests_positive": 0.6,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-07-27 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 16.1,
+                "Influenza_percent_of_tests_positive": 0.6,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-07-20 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 14.6,
+                "Influenza_percent_of_tests_positive": 0.7,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-07-13 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 12.9,
+                "Influenza_percent_of_tests_positive": 0.8,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-07-06 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.1,
+                "Influenza_percent_of_tests_positive": 1.0,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-06-29 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.6,
+                "Influenza_percent_of_tests_positive": 0.9,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-06-22 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 8.6,
+                "Influenza_percent_of_tests_positive": 1.0,
+                "RSV_percent_of_tests_positive": 0.3
+            },
+            {
+                "date": "2024-06-15 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 7.0,
+                "Influenza_percent_of_tests_positive": 1.3,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-06-08 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.6,
+                "Influenza_percent_of_tests_positive": 1.5,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-06-01 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.8,
+                "Influenza_percent_of_tests_positive": 1.6,
+                "RSV_percent_of_tests_positive": 0.4
+            },
+            {
+                "date": "2024-05-25 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.1,
+                "Influenza_percent_of_tests_positive": 1.6,
+                "RSV_percent_of_tests_positive": 0.5
+            },
+            {
+                "date": "2024-05-18 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.5,
+                "Influenza_percent_of_tests_positive": 1.8,
+                "RSV_percent_of_tests_positive": 0.5
+            },
+            {
+                "date": "2024-05-11 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.1,
+                "Influenza_percent_of_tests_positive": 2.3,
+                "RSV_percent_of_tests_positive": 0.7
+            },
+            {
+                "date": "2024-05-04 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.3,
+                "Influenza_percent_of_tests_positive": 3.2,
+                "RSV_percent_of_tests_positive": 0.7
+            },
+            {
+                "date": "2024-04-27 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.1,
+                "Influenza_percent_of_tests_positive": 3.8,
+                "RSV_percent_of_tests_positive": 0.8
+            },
+            {
+                "date": "2024-04-20 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.1,
+                "Influenza_percent_of_tests_positive": 4.8,
+                "RSV_percent_of_tests_positive": 0.9
+            },
+            {
+                "date": "2024-04-13 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.4,
+                "Influenza_percent_of_tests_positive": 5.8,
+                "RSV_percent_of_tests_positive": 1.2
+            },
+            {
+                "date": "2024-04-06 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.5,
+                "Influenza_percent_of_tests_positive": 7.5,
+                "RSV_percent_of_tests_positive": 1.3
+            },
+            {
+                "date": "2024-03-30 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.8,
+                "Influenza_percent_of_tests_positive": 9.2,
+                "RSV_percent_of_tests_positive": 1.6
+            },
+            {
+                "date": "2024-03-23 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.1,
+                "Influenza_percent_of_tests_positive": 10.4,
+                "RSV_percent_of_tests_positive": 2.0
+            },
+            {
+                "date": "2024-03-16 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 4.7,
+                "Influenza_percent_of_tests_positive": 11.9,
+                "RSV_percent_of_tests_positive": 2.4
+            },
+            {
+                "date": "2024-03-09 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 5.5,
+                "Influenza_percent_of_tests_positive": 14.2,
+                "RSV_percent_of_tests_positive": 2.8
+            },
+            {
+                "date": "2024-03-02 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 6.7,
+                "Influenza_percent_of_tests_positive": 14.9,
+                "RSV_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-02-24 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 7.7,
+                "Influenza_percent_of_tests_positive": 15.5,
+                "RSV_percent_of_tests_positive": 3.6
+            },
+            {
+                "date": "2024-02-17 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 8.4,
+                "Influenza_percent_of_tests_positive": 15.6,
+                "RSV_percent_of_tests_positive": 4.2
+            },
+            {
+                "date": "2024-02-10 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.5,
+                "Influenza_percent_of_tests_positive": 15.9,
+                "RSV_percent_of_tests_positive": 4.9
+            },
+            {
+                "date": "2024-02-03 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.9,
+                "Influenza_percent_of_tests_positive": 16.3,
+                "RSV_percent_of_tests_positive": 5.5
+            },
+            {
+                "date": "2024-01-27 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 10.4,
+                "Influenza_percent_of_tests_positive": 16.1,
+                "RSV_percent_of_tests_positive": 6.1
+            },
+            {
+                "date": "2024-01-20 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 10.9,
+                "Influenza_percent_of_tests_positive": 14.9,
+                "RSV_percent_of_tests_positive": 7.2
+            },
+            {
+                "date": "2024-01-13 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.9,
+                "Influenza_percent_of_tests_positive": 13.9,
+                "RSV_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-01-06 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 12.9,
+                "Influenza_percent_of_tests_positive": 13.8,
+                "RSV_percent_of_tests_positive": 9.9
+            },
+            {
+                "date": "2023-12-30 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 13.1,
+                "Influenza_percent_of_tests_positive": 18.2,
+                "RSV_percent_of_tests_positive": 10.4
+            },
+            {
+                "date": "2023-12-23 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 12.4,
+                "Influenza_percent_of_tests_positive": 17.3,
+                "RSV_percent_of_tests_positive": 11.2
+            },
+            {
+                "date": "2023-12-16 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.9,
+                "Influenza_percent_of_tests_positive": 13.4,
+                "RSV_percent_of_tests_positive": 12.2
+            },
+            {
+                "date": "2023-12-09 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.6,
+                "Influenza_percent_of_tests_positive": 9.8,
+                "RSV_percent_of_tests_positive": 12.0
+            },
+            {
+                "date": "2023-12-02 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.7,
+                "Influenza_percent_of_tests_positive": 7.0,
+                "RSV_percent_of_tests_positive": 11.9
+            },
+            {
+                "date": "2023-11-25 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 11.2,
+                "Influenza_percent_of_tests_positive": 5.9,
+                "RSV_percent_of_tests_positive": 12.7
+            },
+            {
+                "date": "2023-11-18 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.5,
+                "Influenza_percent_of_tests_positive": 4.9,
+                "RSV_percent_of_tests_positive": 11.8
+            },
+            {
+                "date": "2023-11-11 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 10.1,
+                "Influenza_percent_of_tests_positive": 4.0,
+                "RSV_percent_of_tests_positive": 10.6
+            },
+            {
+                "date": "2023-11-04 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.3,
+                "Influenza_percent_of_tests_positive": 2.6,
+                "RSV_percent_of_tests_positive": 9.1
+            },
+            {
+                "date": "2023-10-28 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.6,
+                "Influenza_percent_of_tests_positive": 1.8,
+                "RSV_percent_of_tests_positive": 7.6
+            },
+            {
+                "date": "2023-10-21 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.4,
+                "Influenza_percent_of_tests_positive": 1.5,
+                "RSV_percent_of_tests_positive": 5.9
+            },
+            {
+                "date": "2023-10-14 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 9.1,
+                "Influenza_percent_of_tests_positive": 1.3,
+                "RSV_percent_of_tests_positive": 4.8
+            },
+            {
+                "date": "2023-10-07 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 10.0,
+                "Influenza_percent_of_tests_positive": 1.1,
+                "RSV_percent_of_tests_positive": 3.7
+            }
+        ]
+    },
+    "clinical_cov": {
+        "trends": [
+            {
+                "date": "2025-04-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.4
+            },
+            {
+                "date": "2025-04-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.6
+            },
+            {
+                "date": "2025-03-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.8
+            },
+            {
+                "date": "2025-03-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2025-03-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2025-03-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.7
+            },
+            {
+                "date": "2025-03-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.8
+            },
+            {
+                "date": "2025-02-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.9
+            },
+            {
+                "date": "2025-02-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.3
+            },
+            {
+                "date": "2025-02-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.5
+            },
+            {
+                "date": "2025-02-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.6
+            },
+            {
+                "date": "2025-01-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.2
+            },
+            {
+                "date": "2025-01-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.6
+            },
+            {
+                "date": "2025-01-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 6.3
+            },
+            {
+                "date": "2025-01-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 6.7
+            },
+            {
+                "date": "2024-12-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 6.5
+            },
+            {
+                "date": "2024-12-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 6.0
+            },
+            {
+                "date": "2024-12-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.4
+            },
+            {
+                "date": "2024-12-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.8
+            },
+            {
+                "date": "2024-11-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.4
+            },
+            {
+                "date": "2024-11-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.2
+            },
+            {
+                "date": "2024-11-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.1
+            },
+            {
+                "date": "2024-11-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.2
+            },
+            {
+                "date": "2024-11-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.7
+            },
+            {
+                "date": "2024-10-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.0
+            },
+            {
+                "date": "2024-10-19 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.3
+            },
+            {
+                "date": "2024-10-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 6.3
+            },
+            {
+                "date": "2024-10-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 7.4
+            },
+            {
+                "date": "2024-09-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.3
+            },
+            {
+                "date": "2024-09-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.2
+            },
+            {
+                "date": "2024-09-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 13.1
+            },
+            {
+                "date": "2024-09-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 14.5
+            },
+            {
+                "date": "2024-08-31 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 16.3
+            },
+            {
+                "date": "2024-08-24 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 16.8
+            },
+            {
+                "date": "2024-08-17 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 17.6
+            },
+            {
+                "date": "2024-08-10 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 17.8
+            },
+            {
+                "date": "2024-08-03 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 17.3
+            },
+            {
+                "date": "2024-07-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 16.1
+            },
+            {
+                "date": "2024-07-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 14.6
+            },
+            {
+                "date": "2024-07-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 12.9
+            },
+            {
+                "date": "2024-07-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.1
+            },
+            {
+                "date": "2024-06-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.6
+            },
+            {
+                "date": "2024-06-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 8.6
+            },
+            {
+                "date": "2024-06-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 7.0
+            },
+            {
+                "date": "2024-06-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.6
+            },
+            {
+                "date": "2024-06-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.8
+            },
+            {
+                "date": "2024-05-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.1
+            },
+            {
+                "date": "2024-05-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.5
+            },
+            {
+                "date": "2024-05-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-05-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.3
+            },
+            {
+                "date": "2024-04-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-04-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.1
+            },
+            {
+                "date": "2024-04-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.4
+            },
+            {
+                "date": "2024-04-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.5
+            },
+            {
+                "date": "2024-03-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.8
+            },
+            {
+                "date": "2024-03-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.1
+            },
+            {
+                "date": "2024-03-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 4.7
+            },
+            {
+                "date": "2024-03-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 5.5
+            },
+            {
+                "date": "2024-03-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 6.7
+            },
+            {
+                "date": "2024-02-24 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 7.7
+            },
+            {
+                "date": "2024-02-17 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 8.4
+            },
+            {
+                "date": "2024-02-10 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.5
+            },
+            {
+                "date": "2024-02-03 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.9
+            },
+            {
+                "date": "2024-01-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 10.4
+            },
+            {
+                "date": "2024-01-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 10.9
+            },
+            {
+                "date": "2024-01-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.9
+            },
+            {
+                "date": "2024-01-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 12.9
+            },
+            {
+                "date": "2023-12-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 13.1
+            },
+            {
+                "date": "2023-12-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 12.4
+            },
+            {
+                "date": "2023-12-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.9
+            },
+            {
+                "date": "2023-12-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.6
+            },
+            {
+                "date": "2023-12-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.7
+            },
+            {
+                "date": "2023-11-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 11.2
+            },
+            {
+                "date": "2023-11-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.5
+            },
+            {
+                "date": "2023-11-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 10.1
+            },
+            {
+                "date": "2023-11-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.3
+            },
+            {
+                "date": "2023-10-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.6
+            },
+            {
+                "date": "2023-10-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.4
+            },
+            {
+                "date": "2023-10-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 9.1
+            },
+            {
+                "date": "2023-10-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 10.0
+            }
+        ],
+        "variants": [
+            {
+                "date": "2025-04-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "LP.8.1:0.64;XEC:0.15;MC.10.1:0.04;LF.7:0.04;LB.1.3.1:0.02;KP.3.1.1:0.02;XEC.4:0.02;MC.28.1:0.01;MC.19:0.01;KP.3:0.01;XEQ:0.01;MC.1:0.01;LF.7.2.1:0.01;XEK:0.01;JN.1.16:0.00;JN.1:0.00;"
+            }
+        ]
+    },
+    "wastewater_cov": {
+        "trends": [
+            {
+                "date": "2025-04-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.44
+            },
+            {
+                "date": "2025-03-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.66
+            },
+            {
+                "date": "2025-03-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.74
+            },
+            {
+                "date": "2025-03-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.03
+            },
+            {
+                "date": "2025-03-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.2
+            },
+            {
+                "date": "2025-03-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.33
+            },
+            {
+                "date": "2025-02-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.62
+            },
+            {
+                "date": "2025-02-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.43
+            },
+            {
+                "date": "2025-02-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.81
+            },
+            {
+                "date": "2025-02-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.88
+            },
+            {
+                "date": "2025-01-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.83
+            },
+            {
+                "date": "2025-01-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.84
+            },
+            {
+                "date": "2025-01-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.56
+            },
+            {
+                "date": "2025-01-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 6.18
+            },
+            {
+                "date": "2024-12-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.31
+            },
+            {
+                "date": "2024-12-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.65
+            },
+            {
+                "date": "2024-12-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.91
+            },
+            {
+                "date": "2024-12-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.13
+            },
+            {
+                "date": "2024-11-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.01
+            },
+            {
+                "date": "2024-11-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.06
+            },
+            {
+                "date": "2024-11-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.88
+            },
+            {
+                "date": "2024-11-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.94
+            },
+            {
+                "date": "2024-11-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.1
+            },
+            {
+                "date": "2024-10-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.26
+            },
+            {
+                "date": "2024-10-19 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.2
+            },
+            {
+                "date": "2024-10-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.44
+            },
+            {
+                "date": "2024-10-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.06
+            },
+            {
+                "date": "2024-09-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.39
+            },
+            {
+                "date": "2024-09-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.74
+            },
+            {
+                "date": "2024-09-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.48
+            },
+            {
+                "date": "2024-09-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.5
+            },
+            {
+                "date": "2024-08-31 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 9.11
+            },
+            {
+                "date": "2024-08-24 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 9.24
+            },
+            {
+                "date": "2024-08-17 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.83
+            },
+            {
+                "date": "2024-08-10 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.96
+            },
+            {
+                "date": "2024-08-03 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 9.07
+            },
+            {
+                "date": "2024-07-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.62
+            },
+            {
+                "date": "2024-07-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.07
+            },
+            {
+                "date": "2024-07-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 6.1
+            },
+            {
+                "date": "2024-07-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.84
+            },
+            {
+                "date": "2024-06-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.27
+            },
+            {
+                "date": "2024-06-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.42
+            },
+            {
+                "date": "2024-06-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.78
+            },
+            {
+                "date": "2024-06-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.5
+            },
+            {
+                "date": "2024-06-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.18
+            },
+            {
+                "date": "2024-05-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.9
+            },
+            {
+                "date": "2024-05-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.74
+            },
+            {
+                "date": "2024-05-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.54
+            },
+            {
+                "date": "2024-05-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.45
+            },
+            {
+                "date": "2024-04-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.5
+            },
+            {
+                "date": "2024-04-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.64
+            },
+            {
+                "date": "2024-04-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.97
+            },
+            {
+                "date": "2024-04-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.25
+            }
+        ],
+        "variants": [
+            {
+                "date": "2025-04-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XEC:0.08;LP.8.1:0.52;KP.1.1.3:0.05;Other:0.35"
+            },
+            {
+                "date": "2025-04-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.06;KP.3:0.08;XEC:0.13;LP.8.1:0.41;KP.1.1.3:0.06;Other:0.27"
+            },
+            {
+                "date": "2025-03-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "KP.3:0.07;KP.3.1.1:0.05;XEC:0.14;LP.8.1:0.41;KP.1.1.3:0.06;Other:0.28"
+            },
+            {
+                "date": "2025-03-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.09;XEC:0.16;LP.8.1:0.38;Other:0.31"
+            },
+            {
+                "date": "2025-03-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.08;XEC:0.22;LP.8.1:0.30;Other:0.33"
+            },
+            {
+                "date": "2025-03-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.10;XEC:0.21;LP.8.1:0.29;Other:0.34"
+            },
+            {
+                "date": "2025-03-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.13;KP.3.1.1:0.06;XEC:0.23;LP.8.1:0.23;Other:0.28"
+            },
+            {
+                "date": "2025-02-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.09;KP.3.1.1:0.05;XEC:0.28;LP.8.1:0.21;Other:0.29"
+            },
+            {
+                "date": "2025-02-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.11;KP.3.1.1:0.06;XEC:0.29;LP.8.1:0.19;Other:0.28"
+            },
+            {
+                "date": "2025-02-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.09;XEC:0.32;LP.8.1:0.16;XEC.4:0.05;Other:0.30"
+            },
+            {
+                "date": "2025-02-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.10;KP.3.1.1:0.07;XEC:0.32;LP.8.1:0.12;Other:0.29"
+            },
+            {
+                "date": "2025-01-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.10;KP.3.1.1:0.10;XEC:0.33;LP.8.1:0.09;Other:0.30"
+            },
+            {
+                "date": "2025-01-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.11;KP.3.1.1:0.10;XEC:0.36;LP.8.1:0.08;Other:0.29"
+            },
+            {
+                "date": "2025-01-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.10;KP.3.1.1:0.10;XEC:0.38;Other:0.34"
+            },
+            {
+                "date": "2025-01-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.06;KP.3:0.13;KP.3.1.1:0.12;XEC:0.37;Other:0.32"
+            },
+            {
+                "date": "2024-12-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.06;KP.3:0.13;KP.3.1.1:0.15;XEC:0.34;Other:0.31"
+            },
+            {
+                "date": "2024-12-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.11;KP.3.1.1:0.18;XEC:0.34;Other:0.31"
+            },
+            {
+                "date": "2024-12-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.14;KP.3.1.1:0.18;XEC:0.30;Other:0.30"
+            },
+            {
+                "date": "2024-12-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.14;KP.3.1.1:0.23;XEC:0.26;Other:0.29"
+            },
+            {
+                "date": "2024-11-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.17;KP.3.1.1:0.24;XEC:0.23;Other:0.29"
+            },
+            {
+                "date": "2024-11-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.07;KP.3:0.16;KP.3.1.1:0.31;XEC:0.20;Other:0.26"
+            },
+            {
+                "date": "2024-11-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.10;KP.3:0.16;KP.3.1.1:0.29;XEC:0.15;Other:0.29"
+            },
+            {
+                "date": "2024-11-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.19;KP.3.1.1:0.31;XEC:0.15;Other:0.28"
+            },
+            {
+                "date": "2024-11-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.09;KP.3:0.20;KP.3.1.1:0.34;XEC:0.12;Other:0.25"
+            },
+            {
+                "date": "2024-10-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.08;KP.3:0.21;KP.3.1.1:0.35;XEC:0.10;Other:0.27"
+            },
+            {
+                "date": "2024-10-19 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.06;KP.3:0.20;KP.3.1.1:0.41;XEC:0.09;Other:0.24"
+            },
+            {
+                "date": "2024-10-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.09;KP.3:0.20;KP.3.1.1:0.38;XEC:0.07;Other:0.26"
+            },
+            {
+                "date": "2024-10-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.10;KP.3:0.23;KP.3.1.1:0.39;Other:0.29"
+            },
+            {
+                "date": "2024-09-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.09;KP.3:0.21;LB.1:0.05;KP.3.1.1:0.39;Other:0.26"
+            },
+            {
+                "date": "2024-09-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.09;KP.3:0.23;LB.1:0.06;KP.2.3:0.06;KP.3.1.1:0.35;Other:0.22"
+            },
+            {
+                "date": "2024-09-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.09;KP.3:0.19;LB.1:0.08;KP.2.3:0.06;KP.3.1.1:0.36;Other:0.21"
+            },
+            {
+                "date": "2024-09-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.11;KP.2:0.05;KP.3:0.20;LB.1:0.08;KP.2.3:0.08;KP.3.1.1:0.32;Other:0.17"
+            },
+            {
+                "date": "2024-08-31 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.12;KP.2:0.06;KP.3:0.19;LB.1:0.10;KP.2.3:0.10;KP.3.1.1:0.28;Other:0.15"
+            },
+            {
+                "date": "2024-08-24 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.11;KP.2:0.06;KP.3:0.21;LB.1:0.12;KP.2.3:0.09;KP.3.1.1:0.24;Other:0.17"
+            },
+            {
+                "date": "2024-08-17 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.13;JN.1.11.1:0.05;KP.2:0.06;KP.3:0.21;LB.1:0.11;KP.2.3:0.11;KP.3.1.1:0.19;Other:0.13"
+            },
+            {
+                "date": "2024-08-10 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.13;KP.2:0.08;KP.3:0.20;LB.1:0.13;KP.2.3:0.12;KP.3.1.1:0.16;Other:0.17"
+            },
+            {
+                "date": "2024-08-03 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.15;KP.2:0.08;KP.3:0.20;LB.1:0.12;KP.2.3:0.13;KP.3.1.1:0.15;Other:0.18"
+            },
+            {
+                "date": "2024-07-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.15;JN.1.11.1:0.06;KP.2:0.09;KP.3:0.22;LB.1:0.12;KP.2.3:0.12;KP.3.1.1:0.11;Other:0.13"
+            },
+            {
+                "date": "2024-07-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.17;JN.1.11.1:0.06;KP.2:0.09;KP.3:0.21;LB.1:0.14;KP.2.3:0.11;KP.3.1.1:0.09;Other:0.14"
+            },
+            {
+                "date": "2024-07-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.18;JN.1.11.1:0.07;KP.2:0.08;KP.3:0.22;LB.1:0.13;KP.2.3:0.11;KP.3.1.1:0.07;Other:0.13"
+            },
+            {
+                "date": "2024-07-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.20;JN.1.11.1:0.06;KP.2:0.10;KP.3:0.19;LB.1:0.14;KP.2.3:0.11;KP.3.1.1:0.06;Other:0.14"
+            },
+            {
+                "date": "2024-06-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.23;JN.1.11.1:0.07;KP.2:0.11;KP.3:0.18;LB.1:0.13;KP.2.3:0.11;Other:0.17"
+            },
+            {
+                "date": "2024-06-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.25;JN.1.11.1:0.10;KP.2:0.13;KP.3:0.18;LB.1:0.12;KP.2.3:0.09;Other:0.14"
+            },
+            {
+                "date": "2024-06-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.28;JN.1.11.1:0.09;KP.2:0.13;KP.3:0.16;LB.1:0.09;KP.2.3:0.08;Other:0.16"
+            },
+            {
+                "date": "2024-06-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.31;JN.1.11.1:0.08;KP.2:0.13;KP.3:0.15;LB.1:0.09;KP.2.3:0.09;Other:0.16"
+            },
+            {
+                "date": "2024-06-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.36;JN.1.11.1:0.08;KP.2:0.12;KP.3:0.12;LB.1:0.07;KP.2.3:0.08;Other:0.17"
+            },
+            {
+                "date": "2024-05-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.40;JN.1.11.1:0.09;KP.2:0.11;KP.3:0.10;LB.1:0.07;Other:0.23"
+            },
+            {
+                "date": "2024-05-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.43;JN.1.11.1:0.08;JN.1.7:0.06;KP.2:0.10;KP.3:0.09;LB.1:0.06;Other:0.17"
+            },
+            {
+                "date": "2024-05-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.46;JN.1.11.1:0.08;JN.1.7:0.08;KP.2:0.10;KP.3:0.06;Other:0.23"
+            },
+            {
+                "date": "2024-05-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.53;JN.1.11.1:0.06;JN.1.7:0.11;KP.2:0.06;Other:0.24"
+            },
+            {
+                "date": "2024-04-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.56;JN.1.11.1:0.05;JN.1.7:0.12;KP.2:0.05;Other:0.21"
+            },
+            {
+                "date": "2024-04-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.63;JN.1.7:0.11;Other:0.26"
+            },
+            {
+                "date": "2024-04-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.64;JN.1.7:0.13;Other:0.23"
+            },
+            {
+                "date": "2024-04-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.69;JN.1.7:0.12;Other:0.19"
+            },
+            {
+                "date": "2024-03-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.70;JN.1.7:0.10;Other:0.20"
+            },
+            {
+                "date": "2024-03-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.73;JN.1.7:0.12;Other:0.15"
+            },
+            {
+                "date": "2024-03-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.75;JN.1.7:0.09;Other:0.15"
+            },
+            {
+                "date": "2024-03-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.78;JN.1.7:0.09;Other:0.12"
+            },
+            {
+                "date": "2024-03-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.80;JN.1.7:0.08;Other:0.11"
+            },
+            {
+                "date": "2024-02-24 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.81;JN.1.7:0.06;Other:0.12"
+            },
+            {
+                "date": "2024-02-17 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.83;Other:0.17"
+            },
+            {
+                "date": "2024-02-10 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.83;Other:0.17"
+            },
+            {
+                "date": "2024-02-03 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.05;JN.1:0.82;Other:0.13"
+            },
+            {
+                "date": "2024-01-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "JN.1:0.78;Other:0.22"
+            },
+            {
+                "date": "2024-01-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.06;JN.1:0.71;Other:0.23"
+            },
+            {
+                "date": "2024-01-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.07;EG.5:0.07;JN.1:0.63;Other:0.24"
+            },
+            {
+                "date": "2024-01-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.07;EG.5:0.08;HV.1:0.06;JN.1:0.54;Other:0.25"
+            },
+            {
+                "date": "2023-12-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.07;EG.5:0.11;HV.1:0.07;JN.1:0.47;XBB:0.05;Other:0.23"
+            },
+            {
+                "date": "2023-12-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.06;EG.5:0.16;HV.1:0.12;JN.1:0.35;XBB.1.5:0.05;Other:0.27"
+            },
+            {
+                "date": "2023-12-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.2.86:0.06;EG.5:0.17;HV.1:0.15;JN.1:0.23;XBB:0.06;XBB.1.5:0.07;Other:0.26"
+            },
+            {
+                "date": "2023-12-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.21;HV.1:0.17;JN.1:0.15;XBB:0.06;XBB.1.5:0.07;Other:0.33"
+            },
+            {
+                "date": "2023-12-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.21;HV.1:0.21;JN.1:0.08;XBB:0.07;XBB.1.5:0.08;Other:0.36"
+            },
+            {
+                "date": "2023-11-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.24;HV.1:0.19;XBB:0.08;XBB.1.5:0.08;Other:0.41"
+            },
+            {
+                "date": "2023-11-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.24;HV.1:0.21;XBB:0.09;XBB.1.16.6:0.06;XBB.1.5:0.06;Other:0.35"
+            },
+            {
+                "date": "2023-11-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.23;HV.1:0.22;XBB:0.08;XBB.1.16.6:0.05;XBB.1.5:0.07;Other:0.35"
+            },
+            {
+                "date": "2023-11-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.25;HV.1:0.20;XBB:0.08;XBB.1.5:0.08;Other:0.39"
+            },
+            {
+                "date": "2023-10-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.26;FL.1.5.1:0.06;HV.1:0.17;XBB:0.07;XBB.1.5:0.07;Other:0.36"
+            },
+            {
+                "date": "2023-10-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.24;FL.1.5.1:0.09;HV.1:0.16;XBB:0.08;XBB.1.16.6:0.07;XBB.1.5:0.07;Other:0.29"
+            },
+            {
+                "date": "2023-10-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.26;FL.1.5.1:0.09;HV.1:0.14;XBB:0.06;XBB.1.16.6:0.07;XBB.1.5:0.07;Other:0.30"
+            },
+            {
+                "date": "2023-10-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.26;FL.1.5.1:0.10;HV.1:0.10;XBB:0.07;XBB.1.16.6:0.09;XBB.1.5:0.07;XBB.1.9.1:0.05;Other:0.27"
+            },
+            {
+                "date": "2023-09-30 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.26;FL.1.5.1:0.10;HV.1:0.09;XBB:0.07;XBB.1.16:0.06;XBB.1.16.6:0.08;XBB.1.5:0.07;Other:0.28"
+            },
+            {
+                "date": "2023-09-23 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.24;FL.1.5.1:0.10;HV.1:0.08;XBB:0.08;XBB.1.16:0.06;XBB.1.16.6:0.09;XBB.1.5:0.08;Other:0.28"
+            },
+            {
+                "date": "2023-09-16 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.21;FL.1.5.1:0.10;HV.1:0.05;XBB:0.09;XBB.1.16:0.09;XBB.1.16.6:0.09;XBB.1.5:0.07;XBB.2.3:0.06;Other:0.24"
+            },
+            {
+                "date": "2023-09-09 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.20;FL.1.5.1:0.08;HV.1:0.05;XBB:0.09;XBB.1.16:0.10;XBB.1.16.6:0.09;XBB.1.5:0.08;XBB.1.9.1:0.05;XBB.2.3:0.06;Other:0.19"
+            },
+            {
+                "date": "2023-09-02 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.20;FL.1.5.1:0.09;XBB:0.11;XBB.1.16:0.09;XBB.1.16.6:0.08;XBB.1.5:0.09;XBB.2.3:0.07;Other:0.27"
+            },
+            {
+                "date": "2023-08-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.17;FL.1.5.1:0.07;XBB:0.12;XBB.1.16:0.11;XBB.1.16.6:0.08;XBB.1.5:0.09;XBB.1.9.1:0.06;XBB.2.3:0.07;Other:0.23"
+            },
+            {
+                "date": "2023-08-19 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.14;FL.1.5.1:0.06;XBB:0.14;XBB.1.16:0.10;XBB.1.16.6:0.07;XBB.1.5:0.10;XBB.1.9.1:0.07;XBB.2.3:0.07;Other:0.24"
+            },
+            {
+                "date": "2023-08-12 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.15;FL.1.5.1:0.05;XBB:0.12;XBB.1.16:0.12;XBB.1.16.6:0.06;XBB.1.5:0.11;XBB.1.9.1:0.06;XBB.2.3:0.08;Other:0.23"
+            },
+            {
+                "date": "2023-08-05 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.12;XBB:0.18;XBB.1.16:0.12;XBB.1.16.6:0.05;XBB.1.5:0.14;XBB.1.9.1:0.07;XBB.2.3:0.07;Other:0.26"
+            },
+            {
+                "date": "2023-07-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.10;XBB:0.16;XBB.1.16:0.13;XBB.1.5:0.18;XBB.1.9.1:0.08;XBB.2.3:0.07;Other:0.28"
+            },
+            {
+                "date": "2023-07-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.08;XBB:0.17;XBB.1.16:0.12;XBB.1.5:0.21;XBB.1.9.1:0.08;XBB.2.3:0.05;Other:0.28"
+            },
+            {
+                "date": "2023-07-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.08;XBB:0.19;XBB.1.16:0.14;XBB.1.5:0.21;XBB.1.9.1:0.09;XBB.2.3:0.05;Other:0.23"
+            },
+            {
+                "date": "2023-07-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "EG.5:0.06;XBB:0.16;XBB.1.16:0.12;XBB.1.5:0.24;XBB.1.9.1:0.10;XBB.2.3:0.07;Other:0.26"
+            },
+            {
+                "date": "2023-07-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.18;XBB.1.16:0.12;XBB.1.5:0.30;XBB.1.9.1:0.10;Other:0.31"
+            },
+            {
+                "date": "2023-06-24 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.20;XBB.1.16:0.11;XBB.1.5:0.29;XBB.1.9.1:0.10;XBB.2.3:0.05;Other:0.25"
+            },
+            {
+                "date": "2023-06-17 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.18;XBB.1.16:0.11;XBB.1.5:0.36;XBB.1.9.1:0.10;XBB.2.3:0.05;Other:0.20"
+            },
+            {
+                "date": "2023-06-10 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.20;XBB.1.16:0.10;XBB.1.5:0.39;XBB.1.9.1:0.08;Other:0.23"
+            },
+            {
+                "date": "2023-06-03 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.18;XBB.1.16:0.08;XBB.1.5:0.41;XBB.1.9.1:0.08;Other:0.24"
+            },
+            {
+                "date": "2023-05-27 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.17;XBB.1.16:0.08;XBB.1.5:0.49;XBB.1.9.1:0.07;Other:0.18"
+            },
+            {
+                "date": "2023-05-20 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.16;XBB.1.5:0.55;XBB.1.9.1:0.06;Other:0.22"
+            },
+            {
+                "date": "2023-05-13 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.14;XBB.1.5:0.61;XBB.1.9.1:0.05;Other:0.20"
+            },
+            {
+                "date": "2023-05-06 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.15;XBB.1.5:0.62;Other:0.23"
+            },
+            {
+                "date": "2023-04-29 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.14;XBB.1.5:0.67;Other:0.19"
+            },
+            {
+                "date": "2023-04-22 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.11;XBB.1.5:0.70;Other:0.19"
+            },
+            {
+                "date": "2023-04-15 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.10;XBB.1.5:0.74;Other:0.15"
+            },
+            {
+                "date": "2023-04-08 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.10;XBB.1.5:0.76;Other:0.14"
+            },
+            {
+                "date": "2023-04-01 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.08;XBB.1.5:0.79;Other:0.13"
+            },
+            {
+                "date": "2023-03-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.09;XBB.1.5:0.77;Other:0.14"
+            },
+            {
+                "date": "2023-03-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.09;XBB.1.5:0.78;Other:0.13"
+            },
+            {
+                "date": "2023-03-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.09;XBB.1.5:0.78;Other:0.13"
+            },
+            {
+                "date": "2023-03-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.08;XBB.1.5:0.76;Other:0.16"
+            },
+            {
+                "date": "2023-02-25 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "XBB:0.07;XBB.1.5:0.74;Other:0.19"
+            },
+            {
+                "date": "2023-02-18 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.06;BQ.1.1:0.06;XBB:0.07;XBB.1.5:0.69;Other:0.12"
+            },
+            {
+                "date": "2023-02-11 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.07;BQ.1:0.06;BQ.1.1:0.09;XBB:0.07;XBB.1.5:0.62;Other:0.09"
+            },
+            {
+                "date": "2023-02-04 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.08;BQ.1:0.09;BQ.1.1:0.11;XBB:0.08;XBB.1.5:0.51;Other:0.14"
+            },
+            {
+                "date": "2023-01-28 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.11;BQ.1:0.11;BQ.1.1:0.15;XBB:0.07;XBB.1.5:0.43;Other:0.13"
+            },
+            {
+                "date": "2023-01-21 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.11;BQ.1:0.14;BQ.1.1:0.20;XBB:0.06;XBB.1.5:0.35;Other:0.14"
+            },
+            {
+                "date": "2023-01-14 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.14;BQ.1:0.17;BQ.1.1:0.25;XBB:0.05;XBB.1.5:0.24;Other:0.15"
+            },
+            {
+                "date": "2023-01-07 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "BA.5:0.16;BQ.1:0.19;BQ.1.1:0.26;XBB.1.5:0.18;Other:0.21"
+            }
+        ]
+    }
+}
