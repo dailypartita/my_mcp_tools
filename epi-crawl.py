@@ -1,3 +1,5 @@
+#!/usr/local/bin/uv run
+
 import os
 import json
 import time
@@ -308,7 +310,7 @@ def update_db(epi_us, epi_us_recent):
 
     MONGO_CLIENT.close()
     logger.info(f"Total Updated {len(update_record_list)} items.")
-    logger.info(f"✅ epi-crawl updated successfully, next update in 3 days...")
+    logger.info(f"✅ epi-crawl updated successfully, next update in 5 days...")
     
     return
 
@@ -323,11 +325,12 @@ if __name__ == "__main__":
             try:
                 epi_us, epi_us_recent = await get_us_epidata()
                 update_db(epi_us, epi_us_recent)
-                time.sleep(3600 * 24 * 3)
+                time.sleep(3600 * 24 * 5)
             except FireCrawlRateLimitExceeded as e:
-                time.sleep(60)
-            # except:
-            #     print('⚠️ An error occurred, retrying in 10 seconds...')
-            #     time.sleep(10)
+                time.sleep(600)
+            except Exception as e:
+                print(e)
+                print('⚠️ An error occurred, retrying in 3 hours...')
+                time.sleep(60*60*3)
 
     asyncio.run(main())
