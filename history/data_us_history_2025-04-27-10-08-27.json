@@ -2,24 +2,31 @@
     "all_respiratory_viruses": {
         "summary": [
             {
-                "date": "2025-04-25 00:00:00+00:00",
+                "date": "2025-05-02 00:00:00+00:00",
                 "virus_type": "all respiratory viruses",
-                "summary": "Activity Levels Update:Reported on Friday, April 25, 2025The amount of acute respiratory illness causing people to seek health care remains at a low level.Nationally, emergency department visits for diagnosed influenza and RSV are low and COVID-19 ED visits are very low.Nationally, influenza (5.6%), and RSV (2.4%) test positivity decreased. COVID-19 (3.4%) test positivity remained stable.Nationally, wastewater viral activity levels for influenza A and COVID-19 are low, and RSV is very low.COVID-19 predictions for the next two weeks suggest that emergency department visits will remain at a very low level. Influenza predictions for the next two weeks suggest that emergency department visits will remain at a low level."
+                "summary": "Activity Levels Update:Reported on Friday, May 2, 2025The amount of acute respiratory illness causing people to seek health care remains at a low level.Nationally, emergency department visits for diagnosed influenza and RSV are low and COVID-19 ED visits are very low.Nationally, influenza (4.6%) test positivity decreased and COVID-19 (3.2%) and RSV (1.6%) test positivity were stable.Nationally, wastewater viral activity levels for COVID-19 are low, and influenza A and RSV activity levels are very low.COVID-19 predictions for the next two weeks suggest that emergency department visits will remain at a very low level. Influenza predictions for the next two weeks suggest that emergency department visits are likely to decrease to a very low level."
             }
         ],
         "trends": [
             {
+                "date": "2025-04-26 00:00:00+00:00",
+                "virus_type": "all respiratory viruses",
+                "COVID-19_percent_of_tests_positive": 3.2,
+                "Influenza_percent_of_tests_positive": 4.6,
+                "RSV_percent_of_tests_positive": 1.6
+            },
+            {
                 "date": "2025-04-19 00:00:00+00:00",
                 "virus_type": "all respiratory viruses",
                 "COVID-19_percent_of_tests_positive": 3.4,
-                "Influenza_percent_of_tests_positive": 5.6,
+                "Influenza_percent_of_tests_positive": 5.3,
                 "RSV_percent_of_tests_positive": 1.8
             },
             {
                 "date": "2025-04-12 00:00:00+00:00",
                 "virus_type": "all respiratory viruses",
                 "COVID-19_percent_of_tests_positive": 3.4,
-                "Influenza_percent_of_tests_positive": 6.4,
+                "Influenza_percent_of_tests_positive": 6.3,
                 "RSV_percent_of_tests_positive": 2.4
             },
             {
@@ -580,6 +587,11 @@
     "clinical_cov": {
         "trends": [
             {
+                "date": "2025-04-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_percent_of_tests_positive": 3.2
+            },
+            {
                 "date": "2025-04-19 00:00:00+00:00",
                 "virus_type": "COVID-19",
                 "COVID-19_percent_of_tests_positive": 3.4
@@ -996,14 +1008,19 @@
     "wastewater_cov": {
         "trends": [
             {
+                "date": "2025-04-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.05
+            },
+            {
                 "date": "2025-04-19 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.97
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.01
             },
             {
                 "date": "2025-04-12 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.0
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.03
             },
             {
                 "date": "2025-04-05 00:00:00+00:00",
@@ -1013,32 +1030,32 @@
             {
                 "date": "2025-03-29 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.5
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.53
             },
             {
                 "date": "2025-03-22 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.66
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.75
             },
             {
                 "date": "2025-03-15 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.94
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.05
             },
             {
                 "date": "2025-03-08 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.08
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.06
             },
             {
                 "date": "2025-03-01 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.13
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.11
             },
             {
                 "date": "2025-02-22 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.46
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.42
             },
             {
                 "date": "2025-02-15 00:00:00+00:00",
@@ -1048,37 +1065,37 @@
             {
                 "date": "2025-02-08 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.51
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.5
             },
             {
                 "date": "2025-02-01 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.65
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.72
             },
             {
                 "date": "2025-01-25 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.59
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.61
             },
             {
                 "date": "2025-01-18 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.5
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.53
             },
             {
                 "date": "2025-01-11 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.34
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.41
             },
             {
                 "date": "2025-01-04 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.53
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.57
             },
             {
                 "date": "2024-12-28 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.0
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.96
             },
             {
                 "date": "2024-12-21 00:00:00+00:00",
@@ -1088,12 +1105,12 @@
             {
                 "date": "2024-12-14 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.62
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 3.65
             },
             {
                 "date": "2024-12-07 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.92
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.93
             },
             {
                 "date": "2024-11-30 00:00:00+00:00",
@@ -1108,7 +1125,7 @@
             {
                 "date": "2024-11-16 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.78
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.79
             },
             {
                 "date": "2024-11-09 00:00:00+00:00",
@@ -1153,12 +1170,12 @@
             {
                 "date": "2024-09-14 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.12
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 7.11
             },
             {
                 "date": "2024-09-07 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.06
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.04
             },
             {
                 "date": "2024-08-31 00:00:00+00:00",
@@ -1168,7 +1185,7 @@
             {
                 "date": "2024-08-24 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 9.05
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 9.03
             },
             {
                 "date": "2024-08-17 00:00:00+00:00",
@@ -1183,7 +1200,7 @@
             {
                 "date": "2024-08-03 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.95
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 8.93
             },
             {
                 "date": "2024-07-27 00:00:00+00:00",
@@ -1193,17 +1210,17 @@
             {
                 "date": "2024-07-20 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 6.85
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 6.84
             },
             {
                 "date": "2024-07-13 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.96
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 5.95
             },
             {
                 "date": "2024-07-06 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.84
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 4.85
             },
             {
                 "date": "2024-06-29 00:00:00+00:00",
@@ -1223,7 +1240,7 @@
             {
                 "date": "2024-06-08 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.4
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 2.38
             },
             {
                 "date": "2024-06-01 00:00:00+00:00",
@@ -1238,7 +1255,7 @@
             {
                 "date": "2024-05-18 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.71
+                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.72
             },
             {
                 "date": "2024-05-11 00:00:00+00:00",
@@ -1254,63 +1271,63 @@
                 "date": "2024-04-27 00:00:00+00:00",
                 "virus_type": "COVID-19",
                 "COVID-19_NWSS_wastewater_viral_activity_levels": 1.47
-            },
-            {
-                "date": "2024-04-20 00:00:00+00:00",
-                "virus_type": "COVID-19",
-                "COVID-19_NWSS_wastewater_viral_activity_levels": 1.63
             }
         ],
         "variants": [
             {
+                "date": "2025-04-26 00:00:00+00:00",
+                "virus_type": "COVID-19",
+                "percentage": "LP.8.1:0.55;KP.1.1.3:0.35;LF.7:0.09"
+            },
+            {
                 "date": "2025-04-19 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.08;KP.3:0.05;LP.8.1:0.53;KP.1.1.3:0.05;Other:0.29"
+                "percentage": "JN.1:0.08;KP.3:0.06;XEC:0.07;LP.8.1:0.51;KP.1.1.3:0.06;Other:0.22"
             },
             {
                 "date": "2025-04-12 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "XEC:0.07;LP.8.1:0.54;Other:0.39"
+                "percentage": "JN.1:0.06;KP.3:0.05;XEC:0.07;LP.8.1:0.51;Other:0.30"
             },
             {
                 "date": "2025-04-05 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.06;KP.3:0.08;XEC:0.13;LP.8.1:0.41;KP.1.1.3:0.06;Other:0.27"
+                "percentage": "JN.1:0.07;KP.3:0.08;XEC:0.11;LP.8.1:0.41;KP.1.1.3:0.06;Other:0.27"
             },
             {
                 "date": "2025-03-29 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "KP.3:0.07;KP.3.1.1:0.05;XEC:0.14;LP.8.1:0.41;KP.1.1.3:0.06;Other:0.28"
+                "percentage": "JN.1:0.06;KP.3:0.07;XEC:0.12;LP.8.1:0.42;KP.1.1.3:0.05;Other:0.28"
             },
             {
                 "date": "2025-03-22 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.07;KP.3:0.09;XEC:0.16;LP.8.1:0.38;Other:0.31"
+                "percentage": "JN.1:0.07;KP.3:0.08;XEC:0.15;LP.8.1:0.38;Other:0.31"
             },
             {
                 "date": "2025-03-15 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.07;KP.3:0.08;XEC:0.22;LP.8.1:0.30;Other:0.33"
+                "percentage": "JN.1:0.07;KP.3:0.08;XEC:0.21;LP.8.1:0.30;Other:0.35"
             },
             {
                 "date": "2025-03-08 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.07;KP.3:0.10;XEC:0.21;LP.8.1:0.29;Other:0.34"
+                "percentage": "JN.1:0.07;KP.3:0.09;XEC:0.21;LP.8.1:0.30;Other:0.34"
             },
             {
                 "date": "2025-03-01 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.08;KP.3:0.13;KP.3.1.1:0.06;XEC:0.23;LP.8.1:0.23;Other:0.28"
+                "percentage": "JN.1:0.08;KP.3:0.12;KP.3.1.1:0.06;XEC:0.22;LP.8.1:0.23;Other:0.28"
             },
             {
                 "date": "2025-02-22 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.08;KP.3:0.09;KP.3.1.1:0.05;XEC:0.28;LP.8.1:0.21;Other:0.29"
+                "percentage": "JN.1:0.08;KP.3:0.09;KP.3.1.1:0.06;XEC:0.29;LP.8.1:0.20;Other:0.29"
             },
             {
                 "date": "2025-02-15 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "JN.1:0.07;KP.3:0.11;KP.3.1.1:0.06;XEC:0.30;LP.8.1:0.19;Other:0.28"
+                "percentage": "JN.1:0.07;KP.3:0.11;KP.3.1.1:0.06;XEC:0.30;LP.8.1:0.18;Other:0.28"
             },
             {
                 "date": "2025-02-08 00:00:00+00:00",
@@ -1640,7 +1657,7 @@
             {
                 "date": "2023-11-11 00:00:00+00:00",
                 "virus_type": "COVID-19",
-                "percentage": "EG.5:0.23;HV.1:0.21;XBB:0.08;XBB.1.16.6:0.05;XBB.1.5:0.07;Other:0.35"
+                "percentage": "EG.5:0.23;HV.1:0.22;XBB:0.07;XBB.1.16.6:0.05;XBB.1.5:0.07;Other:0.35"
             },
             {
                 "date": "2023-11-04 00:00:00+00:00",
