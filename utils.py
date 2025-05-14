@@ -28,7 +28,7 @@ class FireCrawl:
         self.FIRECRAWL_API_KEY = os.getenv('FIRECRAWL_API_KEY')
         self.FIRECRAWL_ENDPOINT = os.getenv('FIRECRAWL_ENDPOINT')
         self.url = url
-        self.url_snap = url.split('/')[3] + ', ' + url.split('/')[-1].split('.')[0]
+        self.url_snap = url.split('https://')[1].strip()
         
         self.payload = {
             "url": url,
