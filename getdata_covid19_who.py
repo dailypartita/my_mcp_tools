@@ -1,7 +1,10 @@
 import re
 import time
+import json
+import os
 from utils import FireCrawl, crawl_2_url
 from datetime import datetime, timezone
+from pymongo import MongoClient
 
 def get_who_covid19():
 
@@ -308,7 +311,7 @@ def get_who_covid19():
     ]
     WHO_variants_information = voi_information + vum_information
 
-    return {
+    result_data = {
         'WHO_realtime_7d_countries_positivity_rate': WHO_realtime_7d_countries_positivity_rate,
         'WHO_weekly_positivity_rate_world_history': WHO_weekly_positivity_rate_world_history,
         'WHO_realtime_28d_variants_prevalence': WHO_realtime_28d_variants_prevalence,
@@ -333,5 +336,118 @@ def get_who_covid19():
         'WHO_variants_information': WHO_variants_information
     }
 
+    return result_data
+
+def save_to_mongodb(data, time_run):
+    """Save data to MongoDB with time series collections"""
+    client = MongoClient('mongodb://localhost:27017')
+    
+    # Create database if not exists
+    db = client['covid19_WHO']
+    
+    # Create time series collections for data with dates
+    time_series_collections = [
+        'WHO_realtime_7d_countries_positivity_rate',
+        'WHO_weekly_positivity_rate_world_history',
+        'WHO_realtime_28d_variants_prevalence',
+        'WHO_realtime_28d_GISAID_variants_submitted',
+        'WHO_history_weekly_variants_prevalence',
+        'WHO_realtime_28d_world_reported_cases',
+        'WHO_history_weekly_world_reported_cases',
+        'WHO_history_weekly_region_reported_cases',
+        'WHO_history_weekly_countries_reported_cases',
+        'WHO_realtime_28d_world_reported_deaths',
+        'WHO_history_weekly_world_reported_deaths',
+        'WHO_history_weekly_region_reported_deaths',
+        'WHO_history_weekly_countries_reported_deaths',
+        'WHO_history_weekly_age_distribution_reported_deaths',
+        'WHO_realtime_28d_world_reported_hospitalizations',
+        'WHO_history_monthly_world_reported_hospitalizations',
+        'WHO_realtime_28d_world_reported_ICU',
+        'WHO_history_monthly_world_reported_ICU',
+        'WHO_history_monthly_world_reported_severity',
+        'WHO_realtime_total_world_vaccines',
+        'WHO_realtime_vaccine_coverage'
+    ]
+    
+    # Convert string dates to datetime objects for MongoDB time series
+    for collection_name, collection_data in data.items():
+        if not collection_data:
+            continue
+            
+        if isinstance(collection_data, list):
+            for item in collection_data:
+                if 'date' in item and isinstance(item['date'], str):
+                    try:
+                        # Try to parse date string to datetime
+                        item['date'] = datetime.fromisoformat(item['date'].replace('Z', '+00:00'))
+                    except (ValueError, TypeError):
+                        # If parsing fails, use current time
+                        item['date'] = datetime.now(timezone.utc)
+    
+    # Save each data set to its own collection
+    for collection_name, collection_data in data.items():
+        if not collection_data:
+            continue
+            
+        # Create time series collection if needed
+        if collection_name in time_series_collections:
+            # Check if collection exists
+            if collection_name not in db.list_collection_names():
+                # Create time series collection
+                db.create_collection(
+                    collection_name,
+                    timeseries={
+                        'timeField': 'date',
+                        'metaField': 'country' if 'countries' in collection_name else None,
+                        'granularity': 'hours'
+                    }
+                )
+        
+        # Insert data
+        collection = db[collection_name]
+        if isinstance(collection_data, list) and collection_data:
+            collection.insert_many(collection_data)
+        elif isinstance(collection_data, dict):
+            collection.insert_one(collection_data)
+    
+    # Also save a historical record of the entire dataset
+    history_collection = db['history']
+    history_collection.insert_one({
+        'time_run': time_run,
+        'data': data
+    })
+    
+    return True
+
+def save_to_json(data, time_run):
+    """Save data as JSON file"""
+    # Create history directory if it doesn't exist
+    if not os.path.exists('history'):
+        os.makedirs('history')
+    
+    # Create filename
+    filename = f"history/covid19_WHO_{time_run}.json"
+    
+    # Save data as JSON
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    
+    return filename
+
 if __name__ == '__main__':
-    print(get_who_covid19())
+    try:
+        # Get WHO COVID-19 data
+        time_run = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
+        who_data = get_who_covid19()
+        
+        # Save to MongoDB
+        mongodb_saved = save_to_mongodb(who_data, time_run)
+        
+        # Save to JSON file
+        json_file = save_to_json(who_data, time_run)
+        
+        print(f"Data saved to MongoDB: {mongodb_saved}")
+        print(f"Data saved to JSON file: {json_file}")
+    except Exception as e:
+        print(f"Error: {e}")
