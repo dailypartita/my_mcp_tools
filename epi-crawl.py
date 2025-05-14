@@ -38,7 +38,7 @@ class FireCrawl:
             "url": url,
             "scrapeOptions": {
                 "formats": ["html"],
-                "waitFor": 10
+                "waitFor": 15
             }
         }
         
