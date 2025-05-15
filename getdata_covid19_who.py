@@ -1,13 +1,14 @@
 import re
+import os
 import time
-import asyncio
+import json
 from loguru import logger
 from utils import FireCrawl
 from pymongo import MongoClient
 from datetime import datetime, timezone
 
 def get_who_covid19():
-
+    TIME_SLEEP = 60
     TIME_RUN = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
     TIME_NOW = datetime.now(timezone.utc)
     WHO_URL_LIST = [
@@ -19,23 +20,11 @@ def get_who_covid19():
         'https://data.who.int/dashboards/covid19/vaccines',
         'https://data.who.int/dashboards/covid19/variants'
     ]
-    who_summary_soup = FireCrawl(WHO_URL_LIST[0]).crawl()
-    time.sleep(60)
-    who_cirulation_soup = FireCrawl(WHO_URL_LIST[1]).crawl()
-    time.sleep(60)
-    who_cases_soup = FireCrawl(WHO_URL_LIST[2]).crawl()
-    time.sleep(60)
-    who_deaths_soup = FireCrawl(WHO_URL_LIST[3]).crawl()
-    time.sleep(60)
-    who_hospitalizations_soup = FireCrawl(WHO_URL_LIST[4]).crawl()
-    time.sleep(60)
-    who_vaccines_soup = FireCrawl(WHO_URL_LIST[5]).crawl()
-    time.sleep(60)
-    who_variants_soup = FireCrawl(WHO_URL_LIST[6]).crawl()
-
+    
     # 0. summary
-
     # 0.1 实时：新冠疫情概况
+    who_summary_soup = FireCrawl(WHO_URL_LIST[0]).crawl()
+    time.sleep(TIME_SLEEP)
     p1_soup = who_summary_soup.find_all('div', attrs={'id': 'PageContent_C493_Col00', 'class': 'sf_colsIn col-md-12'})[0]
     p2_soup = who_summary_soup.find_all('div', attrs={'id': 'PageContent_C629_Col00', 'class': 'sf_colsIn col-md-9'})[0]
     WHO_realtime_summary = [
@@ -48,15 +37,17 @@ def get_who_covid19():
             'summary_death': p2_soup.find_all('p')[10].text
         }
     ]
+    
 
     # 1. circulation
-
     # 1.1 实时：上周各国新冠阳性率
+    who_cirulation_soup = FireCrawl(WHO_URL_LIST[1]).crawl()
+    time.sleep(TIME_SLEEP)
     WHO_realtime_7d_countries_positivity_rate = [
         {
             'date': str(datetime.now(timezone.utc)),
             'country': i['aria-label'].split(':')[0].strip(),
-            'covid19_positivity_rate': i['aria-label'].split(':')[1].strip()
+            'covid19_positivity_rate': float(i['aria-label'].split(':')[1].strip()[:-1])
         }
         for i in who_cirulation_soup
         .find_all(attrs={"data-testid": "dataDotViz-choroplethMap-borders"})[0]
@@ -136,8 +127,9 @@ def get_who_covid19():
                 pass
     
     # 2. cases
-
     # 2.1 实时：上月全球总的新冠病例数量
+    who_cases_soup = FireCrawl(WHO_URL_LIST[2]).crawl()
+    time.sleep(TIME_SLEEP)
     WHO_realtime_28d_world_reported_cases = [
         {
             'date': str(datetime.strptime(who_cases_soup.find_all('span', class_ = 'end-date svelte-aejddw')[0].text, 'World, 28 days to %d %B %Y').replace(tzinfo=timezone.utc)),
@@ -178,8 +170,9 @@ def get_who_covid19():
     ]
 
     # 3. deaths
-
     # 3.1 实时：上月全球总的新冠死亡数量
+    who_deaths_soup = FireCrawl(WHO_URL_LIST[3]).crawl()
+    time.sleep(TIME_SLEEP)
     WHO_realtime_28d_world_reported_deaths = [
         {
             'date': str(datetime.strptime(who_deaths_soup.find_all('span', class_ = 'end-date svelte-aejddw')[0].text, 'World, 28 days to %d %B %Y').replace(tzinfo=timezone.utc)),
@@ -231,8 +224,9 @@ def get_who_covid19():
     ]
 
     # 4. hospitalizations
-
     # 4.1 实时：上月全球总的新冠住院数量
+    who_hospitalizations_soup = FireCrawl(WHO_URL_LIST[4]).crawl()
+    time.sleep(TIME_SLEEP)
     WHO_realtime_28d_world_reported_hospitalizations = [
         {
             'date': str(datetime.strptime(who_hospitalizations_soup.find_all('span', class_ = 'end-date svelte-aejddw')[0].text, 'World, 28 days to %d %B %Y').replace(tzinfo=timezone.utc)),
@@ -282,8 +276,9 @@ def get_who_covid19():
     ]
 
     # 5. vaccines
-
     # 5.1 实时：全球接种新冠疫苗总剂数、第一针和加强针覆盖率
+    who_vaccines_soup = FireCrawl(WHO_URL_LIST[5]).crawl()
+    time.sleep(TIME_SLEEP)
     sub_soup = who_vaccines_soup.find_all('div', attrs={'id': 'PageContent_C001_Col00', 'class': 'sf_colsIn container--contrast'})[0]
     WHO_realtime_total_world_vaccines = [
         {
@@ -300,7 +295,7 @@ def get_who_covid19():
         {
             'date': str(datetime.now(timezone.utc)),
             'country': i['aria-label'].split(':')[0].strip(),
-            'Percentage_of_total_population_vaccinated_with_at_least_one_dose_of_a_COVID-19_vaccine': float(i['aria-label'].split(':')[1].strip()[:-1])
+            'Percentage_of_total_population_vaccinated_with_at_least_one_dose_of_a_COVID-19_vaccine': float(i['aria-label'].split(':')[1].strip()[:-1]) if i['aria-label'].split(':')[1].strip() != 'No data' else None
         }
         for i in who_vaccines_soup
         .find_all('div', attrs={'id': 'PageContent_C013_Col00', 'class': 'sf_colsIn container'})[0]
@@ -308,8 +303,9 @@ def get_who_covid19():
     ]
 
     # 6. variants
-
     # 6.1 历史：VOI & VUM 相关信息
+    who_variants_soup = FireCrawl(WHO_URL_LIST[6]).crawl()
+    time.sleep(TIME_SLEEP)
     voi_information = [
         {
             'pango_lineage': i.find_all('th')[0].text.split('Pango lineage')[1].split('Excludes')[0].strip(),
