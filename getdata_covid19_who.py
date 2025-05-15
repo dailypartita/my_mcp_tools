@@ -1,16 +1,17 @@
 import re
 import time
-import json
-import os
-from utils import FireCrawl, crawl_2_url
-from datetime import datetime, timezone
+import asyncio
+from loguru import logger
+from utils import FireCrawl
 from pymongo import MongoClient
+from datetime import datetime, timezone
 
 def get_who_covid19():
 
     TIME_RUN = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
     TIME_NOW = datetime.now(timezone.utc)
     WHO_URL_LIST = [
+        'https://data.who.int/dashboards/covid19/summary',
         'https://data.who.int/dashboards/covid19/circulation',
         'https://data.who.int/dashboards/covid19/cases',
         'https://data.who.int/dashboards/covid19/deaths',
@@ -18,17 +19,35 @@ def get_who_covid19():
         'https://data.who.int/dashboards/covid19/vaccines',
         'https://data.who.int/dashboards/covid19/variants'
     ]
+    who_summary_soup = FireCrawl(WHO_URL_LIST[0]).crawl()
+    time.sleep(60)
+    who_cirulation_soup = FireCrawl(WHO_URL_LIST[1]).crawl()
+    time.sleep(60)
+    who_cases_soup = FireCrawl(WHO_URL_LIST[2]).crawl()
+    time.sleep(60)
+    who_deaths_soup = FireCrawl(WHO_URL_LIST[3]).crawl()
+    time.sleep(60)
+    who_hospitalizations_soup = FireCrawl(WHO_URL_LIST[4]).crawl()
+    time.sleep(60)
+    who_vaccines_soup = FireCrawl(WHO_URL_LIST[5]).crawl()
+    time.sleep(60)
+    who_variants_soup = FireCrawl(WHO_URL_LIST[6]).crawl()
 
-    # who_cirulation_soup, who_cases_soup = await crawl_2_url(WHO_URL_LIST[0], WHO_URL_LIST[1])
-    # who_deaths_soup, who_hospitalizations_soup = await crawl_2_url(WHO_URL_LIST[2], WHO_URL_LIST[3])
-    # who_vaccines_soup, who_variants_soup = await crawl_2_url(WHO_URL_LIST[4], WHO_URL_LIST[5])
+    # 0. summary
 
-    who_cirulation_soup = FireCrawl(WHO_URL_LIST[0]).crawl()
-    who_cases_soup = FireCrawl(WHO_URL_LIST[1]).crawl()
-    who_deaths_soup = FireCrawl(WHO_URL_LIST[2]).crawl()
-    who_hospitalizations_soup = FireCrawl(WHO_URL_LIST[3]).crawl()
-    who_vaccines_soup = FireCrawl(WHO_URL_LIST[4]).crawl()
-    who_variants_soup = FireCrawl(WHO_URL_LIST[5]).crawl()
+    # 0.1 实时：新冠疫情概况
+    p1_soup = who_summary_soup.find_all('div', attrs={'id': 'PageContent_C493_Col00', 'class': 'sf_colsIn col-md-12'})[0]
+    p2_soup = who_summary_soup.find_all('div', attrs={'id': 'PageContent_C629_Col00', 'class': 'sf_colsIn col-md-9'})[0]
+    WHO_realtime_summary = [
+        {
+            'date': str(TIME_NOW.replace(tzinfo=timezone.utc)),
+            'summary_circulation': p1_soup.find_all('p')[0].text,
+            'summary_cases': p1_soup.find_all('p')[10].text,
+            'summary_variant': p1_soup.find_all('div', class_ = 'sfContentBlock sf-Long-text')[9].text,
+            'summary_severity': p2_soup.find_all('p')[0].text,
+            'summary_death': p2_soup.find_all('p')[10].text
+        }
+    ]
 
     # 1. circulation
 
@@ -55,7 +74,7 @@ def get_who_covid19():
             'date': str(datetime.strptime(tmp_history_rawlist[0][0], '%d %b %Y').replace(tzinfo=timezone.utc)),
             'Number_of_specimens_tested_for_SARS-CoV-2': int(tmp_history_rawlist[0][1]),
             'Number_of_specimens_tested_Positive_for_SARS-CoV-2': int(tmp_history_rawlist[x][1]),
-            'Percentage_of_samples_testing_positive_for_SARS-CoV-2': tmp_history_rawlist[2*x][1]+'%'
+            'Percentage_of_samples_testing_positive_for_SARS-CoV-2': float(tmp_history_rawlist[2*x][1])
         }
         for n_specimens, n_positive, n_percentage in zip(tmp_history_rawlist[:x], tmp_history_rawlist[x:2*x], tmp_history_rawlist[2*x:])
     ]
@@ -65,8 +84,8 @@ def get_who_covid19():
         {
             'date': str(datetime.now(timezone.utc)),
             'variant': v_line.find_all('td', class_ = 'inline-border value-column svelte-1hj6lq3')[0].text,
-            'prevalence': v_line.find_all('td', class_ = 'value-column align-end svelte-1hj6lq3')[0].text,
-            'change': v_line.find_all('td', class_ = 'value-column align-end svelte-1hj6lq3')[1].text[1:] + '%'
+            'prevalence': float(v_line.find_all('td', class_ = 'value-column align-end svelte-1hj6lq3')[0].text[:-1]),
+            'change': v_line.find_all('td', class_ = 'value-column align-end svelte-1hj6lq3')[1].text
         }
         for v_line in who_cirulation_soup
         .find_all('table', class_ = 'data-table svelte-1hj6lq3')[0]
@@ -99,16 +118,16 @@ def get_who_covid19():
                 if i['data-test-time-dim'] == time_start:
                     flag = True
                 if i['data-test-time-dim'] == time_end:
-                    prevalence, flag = i.text + '%', False
+                    prevalence, flag = float(i.text), False
                     WHO_history_weekly_variants_prevalence.append({
-                        'date': datetime.strptime(i['data-test-time-dim'], '%Y-%m-%d').replace(tzinfo=timezone.utc),
+                        'date': str(datetime.strptime(i['data-test-time-dim'], '%Y-%m-%d').replace(tzinfo=timezone.utc)),
                         'variant': variant,
                         'prevalence': prevalence
                     })
                 if flag:
-                    prevalence = i.text + '%'
+                    prevalence = float(i.text)
                     WHO_history_weekly_variants_prevalence.append({
-                        'date': datetime.strptime(i['data-test-time-dim'], '%Y-%m-%d').replace(tzinfo=timezone.utc),
+                        'date': str(datetime.strptime(i['data-test-time-dim'], '%Y-%m-%d').replace(tzinfo=timezone.utc)),
                         'variant': variant,
                         'prevalence': prevalence
                     })
@@ -205,7 +224,7 @@ def get_who_covid19():
         {
             'date': str(datetime.strptime(j['data-test-time-dim'], '%Y-%m-%d').replace(tzinfo=timezone.utc)),
             'age_group': i.find_all('h3', class_ = 'headline svelte-1g6zpbj')[0].text,
-            'Percentage_of_deaths_reported_to_WHO': j.text
+            'Percentage_of_deaths_reported_to_WHO': float(j.text[:-1])
         }
         for i in who_deaths_soup.find_all('div', attrs={'class': 'dataDotViz-jsonChartConfig dataDotViz-theme dataDotViz-reset dataDotViz-dynamic dataDotViz-chartConfig dataDotViz-ChartRenderer dataDotViz-chartMode-l'})[0].find_all('div', attrs = {'data-testid': 'dataDotViz-small-multiple'})
         for j in i.find_all('text', role = 'cell')[1:]
@@ -253,9 +272,13 @@ def get_who_covid19():
     WHO_history_monthly_world_reported_severity = [
         {
             'date': str(datetime.strptime(i.text.split(':')[0], '%d %b %Y').replace(tzinfo=timezone.utc)),
-            'Number_of_severity_reported_to_WHO': int(i.text.split(':')[1].replace(',', ''))
+            'Number_of_ICU_admissions_per_1000_hospitalizations_reported_to_WHO': int(i.text.split(':')[1].replace(',', '')),
+            'Number_of_death_per_1000_hospitalizations_reported_to_WHO': int(j.text.split(':')[1].replace(',', ''))
         }
-        for i in who_hospitalizations_soup.find_all('div', attrs={'id': 'PageContent_C190_Col01', 'class': 'sf_colsIn col-md-6', 'data-sf-element': 'Column 2'})[0].find_all('text', attrs={'role': 'listitem'})
+        for i, j in zip(
+            who_hospitalizations_soup.find_all('div', attrs={'id': 'PageContent_C190_Col00', 'class': 'sf_colsIn col-md-6', 'data-sf-element': 'Column 1'})[0].find_all('text', attrs={'role': 'listitem'}),
+            who_hospitalizations_soup.find_all('div', attrs={'id': 'PageContent_C190_Col01', 'class': 'sf_colsIn col-md-6', 'data-sf-element': 'Column 2'})[0].find_all('text', attrs={'role': 'listitem'})
+        )
     ]
 
     # 5. vaccines
@@ -267,8 +290,8 @@ def get_who_covid19():
             'date': str(TIME_NOW.replace(tzinfo=timezone.utc)),
             'Total_COVID-19_vaccine_doses_administered': sub_soup.find_all('strong', class_ = 'data-value svelte-phjb1n')[0].text,
             'Date_of_first_COVID-19_vaccine_product_introduction': sub_soup.find_all('strong', class_ = 'data-value svelte-phjb1n')[1].text,
-            'Percentage_of_total_population_vaccinated_with_a_complete_primary_series_of_a_COVID-19_vaccine': sub_soup.find_all('span', class_ = 'value svelte-1jx75w7')[0].text,
-            'Percentage_of_total_population_vaccinated_with_at_least_one_booster_dose_of_a_COVID-19_vaccine': sub_soup.find_all('span', class_ = 'value svelte-1jx75w7')[1].text
+            'Percentage_of_total_population_vaccinated_with_a_complete_primary_series_of_a_COVID-19_vaccine': float(sub_soup.find_all('span', class_ = 'value svelte-1jx75w7')[0].text[:-1]),
+            'Percentage_of_total_population_vaccinated_with_at_least_one_booster_dose_of_a_COVID-19_vaccine': float(sub_soup.find_all('span', class_ = 'value svelte-1jx75w7')[1].text[:-1])
         }
     ]
 
@@ -277,7 +300,7 @@ def get_who_covid19():
         {
             'date': str(datetime.now(timezone.utc)),
             'country': i['aria-label'].split(':')[0].strip(),
-            'Percentage_of_total_population_vaccinated_with_at_least_one_dose_of_a_COVID-19_vaccine': i['aria-label'].split(':')[1].strip()
+            'Percentage_of_total_population_vaccinated_with_at_least_one_dose_of_a_COVID-19_vaccine': float(i['aria-label'].split(':')[1].strip()[:-1])
         }
         for i in who_vaccines_soup
         .find_all('div', attrs={'id': 'PageContent_C013_Col00', 'class': 'sf_colsIn container'})[0]
@@ -312,6 +335,7 @@ def get_who_covid19():
     WHO_variants_information = voi_information + vum_information
 
     result_data = {
+        'WHO_realtime_summary': WHO_realtime_summary,
         'WHO_realtime_7d_countries_positivity_rate': WHO_realtime_7d_countries_positivity_rate,
         'WHO_weekly_positivity_rate_world_history': WHO_weekly_positivity_rate_world_history,
         'WHO_realtime_28d_variants_prevalence': WHO_realtime_28d_variants_prevalence,
@@ -347,6 +371,7 @@ def save_to_mongodb(data, time_run):
     
     # Create time series collections for data with dates
     time_series_collections = [
+        'WHO_realtime_summary',
         'WHO_realtime_7d_countries_positivity_rate',
         'WHO_weekly_positivity_rate_world_history',
         'WHO_realtime_28d_variants_prevalence',
@@ -436,18 +461,17 @@ def save_to_json(data, time_run):
     return filename
 
 if __name__ == '__main__':
-    try:
-        # Get WHO COVID-19 data
-        time_run = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
-        who_data = get_who_covid19()
-        
-        # Save to MongoDB
-        mongodb_saved = save_to_mongodb(who_data, time_run)
-        
-        # Save to JSON file
-        json_file = save_to_json(who_data, time_run)
-        
-        print(f"Data saved to MongoDB: {mongodb_saved}")
-        print(f"Data saved to JSON file: {json_file}")
-    except Exception as e:
-        print(f"Error: {e}")
+    # try:
+    # Get WHO COVID-19 data
+    time_run = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
+    who_data = get_who_covid19()
+    
+    # Save to JSON file
+    json_file = save_to_json(who_data, time_run)
+    print(f"Data saved to JSON file: {json_file}")
+    
+    # Save to MongoDB
+    mongodb_saved = save_to_mongodb(who_data, time_run)
+    print(f"Data saved to MongoDB: {mongodb_saved}")
+    # except Exception as e:
+    #     print(f"Error: {e}")
